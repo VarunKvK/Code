@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Password</title>
+</head>
+<body>
+	<form name="f1" onsubmit="passmatch()">
+	Password:<input type="password" name="password">
+	Re-Enter Password:<input type="password" name="password2"><br>
+	<input type="submit">
+    </form>
+	<script type="text/javascript">
+		function passmatch()
+        {
+			var passwordone=document.f1.password.value;
+			var passwordtwo=document.f1.password2.value;
+			if(passwordone==passwordtwo){
+				return true;
+			}
+			else{
+				alert("Please enter a password");
+				return false;
+			}
+		}
+	</script>
+</body>
+</html>

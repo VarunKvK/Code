@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
+.jose300 {
+  font: 300,'Josefin Sans', sans-serif;
+}
+
+.jose400 {
+  font: 400,'Josefin Sans', sans-serif;
+}
+
+.jose500 {
+  font: 500,'Josefin Sans', sans-serif;
+}
+
+.jose600 {
+  font: 600,'Josefin Sans', sans-serif;
+}
+
+.jose700 {
+  font: 700,'Josefin Sans', sans-serif;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body .menuheader .menubar {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 24px;
+  position: absolute;
+  /*.site{
+                .sitename{
+
+                }
+            }*/
+}
+
+body .menuheader .menubar .menuicon {
+  position: relative;
+  padding: 25px;
+  left: 18rem;
+}
+
+body .menuheader .menubar .menuicon .menulogo {
+  position: absolute;
+  top: calc(20px/3);
+  left: calc(20px/3);
+}
+
+body .menuheader .menuoption {
+  position: relative;
+  float: right;
+  top: 0;
+  height: 100vh;
+  width: 40vh;
+  background-color: #000;
+  -webkit-transform: translateX(16.4rem);
+          transform: translateX(16.4rem);
+  visibility: hidden;
+}
+
+body .menuheader .menuoption .listmenu {
+  position: relative;
+  top: 80px;
+  list-style: none;
+}
+
+body .menuheader .menuoption .listmenu .menu {
+  -webkit-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out;
+  padding: 1rem;
+  position: relative;
+}
+
+body .menuheader .menuoption .listmenu .menu a {
+  position: relative;
+  z-index: 10;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+}
+
+body .menuheader .menuoption .listmenu .menu a .iconify {
+  margin-right: 15px;
+  font-size: 35px;
+}
+
+body .menuheader .menuoption .listmenu .menu a h2 {
+  font-size: 25px;
+}
+
+body .menuheader .menuoption .listmenu .menu.active::after {
+  content: " ";
+  position: absolute;
+  height: 60px;
+  width: 40vh;
+  left: -32px;
+  top: 0;
+  -webkit-box-shadow: inset 3px 4px 10px rgba(0, 0, 0, 0.445);
+          box-shadow: inset 3px 4px 10px rgba(0, 0, 0, 0.445);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #FFD600;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+body .menuheader .menuoptionopen {
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  visibility: visible;
+  -webkit-transform: translateX(0rem);
+          transform: translateX(0rem);
+}
+
+body .menuheader .menucloseicon {
+  position: relative;
+  z-index: 2;
+}
+
+body .menuheader .line1 {
+  stroke: #fff;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: rotateZ(40deg) translateY(0.5rem);
+          transform: rotateZ(40deg) translateY(0.5rem);
+}
+
+body .menuheader .line2 {
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  stroke: #fff;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-transform: rotateZ(-40deg);
+          transform: rotateZ(-40deg);
+}
+
+body .menuheader .line3 {
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-5rem);
+          transform: translateX(-5rem);
+}
+/*# sourceMappingURL=style.css.map */

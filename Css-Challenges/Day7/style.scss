@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@700&display=swap');
+
+.container{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Poppins', sans-serif;
+    top:50%;
+    left:50%;
+    transform: translate(90%, 15%);
+    background:rgb(93, 126, 187);
+    height:500px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 1px 10px 2px rgba(0,0,0,0.2);
+
+    .center{
+        height: 350px;
+        width: 350px;
+        background:rgb(255, 255, 255);
+        top:50%;
+        left:50%;
+        position:absolute;
+        z-index: 2;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        box-shadow: 0 1px 10px 2px rgba(0,0,0,0.2);
+    
+        .header{
+            .menu{
+                position:relative;
+                height:70px;
+                width:350px;
+                background:rgb(111, 150, 223);
+                transition: all 0.3 ease-in-out;
+
+                    .line1{
+                        height: 4px;
+                        width:30px;
+                        background: rgb(255, 255, 255);
+                        border-radius: 2px;
+                        position: absolute;
+                        margin: 0.6rem;
+                        top:1rem;
+                        transition:all 0.3 ease-in-out;
+                    }
+
+                    .line2{
+                        height: 4px;
+                        width:30px;
+                        background: rgb(255, 255, 255);
+                        border-radius: 2px;
+                        position: relative;
+                        margin: 0.6rem;
+                        top:1rem;
+                        transition:all 0.3 ease-in-out;
+                    }
+
+                    .line3{
+                        height: 4px;
+                        width:30px;
+                        background: rgb(255, 255, 255);
+                        border-radius: 2px;
+                        position: absolute;
+                        margin: 0.6rem;
+                        top:1.6rem;
+                        transition:all 0.3 ease-in-out;
+                    }
+            }
+            .line1:hover{
+                background: rgb(160, 159, 159);
+                transition:all 0.3 ease-in-out;
+            }
+
+            .line2:hover{
+                background: rgb(206, 203, 203);
+                transition:all 0.3 ease-in-out;
+            }
+
+            .line3:hover{
+                background: rgb(128, 128, 128);
+                transition:all 0.3 ease-in-out;
+            }
+
+            .notification{
+                color:rgb(72, 114, 192);
+                position: relative;
+                top: -5.5rem;
+                left:5.3rem;
+            }
+
+            .search{
+                height:15px;
+                width: 15px;
+                border:3px solid rgb(255, 255, 255);
+                border-radius: 2px;
+                position: relative;
+                top: -9rem;
+                float: right;
+                right:1rem;
+            }
+        }
+
+        .timing {
+
+            .line{
+                .l1{
+                    height:63px;
+                    width: 2px;
+                    background: rgb(184, 184, 184);
+                    position: absolute;
+                    top: 6rem;
+                    left:2rem;
+                }
+
+                .l2{
+                    height:63px;
+                    width: 2px;
+                    background: rgb(184, 184, 184);
+                    position: absolute;
+                    top: 11rem;
+                    left:2rem;
+                }
+
+                .l3{
+                    height:63px;
+                    width: 2px;
+                    background: rgb(184, 184, 184);
+                    position: absolute;
+                    top: 16rem;
+                    left:2rem;
+                }
+
+                .c1{
+                    height:13px;
+                    top: 5rem;
+                    width:13px;
+                    border-radius: 10px;
+                    background:rgb(184, 184, 184);
+                    left:1.7rem;
+                    position: absolute;
+                }
+
+                .c2{
+                    height:13px;
+                    top: 10.5rem;
+                    width:13px;
+                    border-radius: 10px;
+                    background:rgb(184, 184, 184);
+                    left:1.7rem;
+                    position: absolute;
+                }
+
+                .c3{
+                    height:13px;
+                    top: 15.3rem;
+                    width:13px;
+                    border-radius: 10px;
+                    background:rgb(184, 184, 184);
+                    left:1.7rem;
+                    position: absolute;
+                }
+            }
+
+            .schedule{
+                position: absolute;
+                left:3rem;
+                top:4rem;
+
+                .S1{
+                    transition: all 0.3s ease-in-out;
+                    .s1{
+                        font-size: 17px;
+                    }
+                    .time1{
+                        font-size: 13px;
+                        opacity: 50%;
+                    }
+                }
+
+                .S2{
+                    transition: all 0.3s ease-in-out;
+                    .s2{
+                        font-size: 17px;
+                        position: relative;
+                        top:1rem;
+                    }
+                    .time2{
+                        position: relative;
+                        top:1rem;
+                        font-size: 13px;
+                        opacity: 50%;
+                    }
+                }
+
+                .S3{
+                    transition: all 0.3s ease-in-out;
+                    .time3{
+                        position: relative;
+                        top:1.3rem;
+                        font-size: 13px;
+                        opacity: 50%;
+                    }
+                    .s3{
+                        font-size: 17px;
+                        position: relative;
+                        top:1rem;
+                    }
+                }
+                .S1:hover{
+                    cursor: pointer;
+                    color: rgb(197, 137, 69);
+                    transition: all 0.3s ease-in-out;
+                }
+
+                .S2:hover{
+                    cursor: pointer;
+                    color: rgb(197, 137, 69);
+                    transition: all 0.3s ease-in-out;
+                }
+
+                .S3:hover{
+                    cursor: pointer;
+                    color: rgb(197, 137, 69);
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+        }
+    }
+
+    &.show-center{
+        transform: translate3d(150px,0,0);
+    }
+
+
+
+    .menubar{
+        position: absolute;
+        width: 170px;
+        height: 350px;
+        top: 75px;
+        left: 30px;
+        background: #72a5d1;
+        border-radius: 3px;
+        transition: all .5s ease-in-out;
+        transform: translate3d(50px,0px,0);
+        .m1{
+        position: relative;
+        left:2rem;
+            .icon{
+                height:12px;
+                width: 12px;
+                border:3px solid rgb(255, 255, 255);
+                border-radius: 2px;
+                top:3.5rem;
+                left:-1.3rem;
+                position: relative;
+            }
+
+            .dashboard{
+                position: relative;
+                top: 1.1rem;
+                left:5px;
+                font-size:20px;
+                color:#fff;
+            }
+        }
+
+        .m2{
+            position: relative;
+            left:2rem;
+                .icon{
+                    height:12px;
+                    width: 12px;
+                    border:3px solid rgb(255, 255, 255);
+                    border-radius: 2px;
+                    top:3.5rem;
+                    left:-1.3rem;
+                    position: relative;
+                }
+    
+                .settings{
+                    position: relative;
+                    top: 0.9rem;
+                    left:5px;
+                    font-size:20px;
+                    color:#fff;
+                }
+            }
+
+        .m3{
+            position: relative;
+            left:2rem;
+            .icon{
+                height:12px;
+                width: 12px;
+                border:3px solid rgb(255, 255, 255);
+                border-radius: 2px;
+                top:3.5rem;
+                left:-1.3rem;
+                position: relative;
+            }
+    
+            .about{
+                position: relative;
+                top: 0.9rem;
+                left:5px;
+                font-size:20px;
+                color:#fff;
+            }
+        }
+        .menubar:hover{
+            transform: translate3d(0px,0px,0);
+        }
+    }
+}

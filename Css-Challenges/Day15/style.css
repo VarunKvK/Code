@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .slider1 {
+  position: relative;
+  height: 20rem;
+  width: 7rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .slider1 .girl {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+body .slider1 .circle1 {
+  height: 4rem;
+  width: 4rem;
+  background-color: white;
+  position: relative;
+  top: -5rem;
+  left: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5rem;
+}
+
+body .slider1 .circle1 .camera {
+  width: 2rem;
+  position: relative;
+}
+
+body .slider1.active {
+  width: 30rem;
+}
+
+body .slider2 {
+  position: relative;
+  height: 20rem;
+  width: 7rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .slider2 .mountains {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+body .slider2 .circle2 {
+  height: 4rem;
+  width: 4rem;
+  background-color: white;
+  position: relative;
+  top: -5rem;
+  left: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5rem;
+}
+
+body .slider2 .circle2 .mountain {
+  width: 2rem;
+  position: relative;
+}
+
+body .slider2.active {
+  width: 30rem;
+}
+
+body .slider3 {
+  position: relative;
+  height: 20rem;
+  width: 7rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .slider3 .beachs {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+body .slider3 .circle3 {
+  height: 4rem;
+  width: 4rem;
+  background-color: white;
+  position: relative;
+  top: -5rem;
+  left: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5rem;
+}
+
+body .slider3 .circle3 .beach {
+  width: 2rem;
+  position: relative;
+}
+
+body .slider3.active {
+  width: 30rem;
+}
+/*# sourceMappingURL=style.css.map */

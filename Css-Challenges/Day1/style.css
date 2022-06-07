@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@700&display=swap");
+.container {
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  top: 50%;
+  height: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: 500px;
+  border-radius: 2px;
+  background: #43389F;
+  -webkit-box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
+  background: -webkit-gradient(linear, left bottom, right top, from(#43389F), to(#4ec6ca));
+  background: linear-gradient(bottom left, #43389F 0%, #4ec6ca 100%);
+}
+
+.container .number {
+  position: relative;
+  right: 35px;
+  top: 20px;
+}
+
+.container .number .one {
+  position: absolute;
+  display: block;
+  font-size: 7rem;
+  z-index: 1;
+  color: white;
+  left: 8rem;
+  top: 3rem;
+  height: 40px;
+  width: 20px;
+  background: #fff;
+  border-radius: 2px;
+  -webkit-transform: rotate(50deg);
+          transform: rotate(50deg);
+  -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container .number .two {
+  position: absolute;
+  display: block;
+  font-size: 7rem;
+  z-index: 3;
+  background: white;
+  left: 8.9rem;
+  top: 3rem;
+  height: 100px;
+  width: 25px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container .number .three,
+.container .number .four {
+  position: absolute;
+  z-index: 2;
+  left: 10rem;
+  top: 3rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 24px solid #fff;
+  -webkit-box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container .number .four {
+  z-index: 1;
+  left: 250px;
+}
+
+.container .header {
+  color: #fff;
+  margin-left: 0.5rem;
+  margin-top: 8.7rem;
+  font-size: 100px;
+  text-align: center;
+}
+
+.container .para {
+  color: #fff;
+  margin-left: 0.5rem;
+  margin-top: -6.5rem;
+  font-size: 40px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

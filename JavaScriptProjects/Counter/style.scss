@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+@mixin align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    @include align();
+
+    .counter {
+        height: 60%;
+        width: 40%;
+        box-shadow: 0 2px 4px rgba(70, 70, 70, 0.219);
+
+        .counterheading {
+            @include align();
+            color: #6349FF;
+        }
+
+        .number{
+            @include align();
+            height: 2rem;
+            width: 40%;
+            color: #C8C8C8;
+            font-size: 4rem;
+            position: absolute;
+        }
+        .buttons {
+            position: relative;
+            left: 50%;
+            width: 50%;
+            height: 50%;
+            @include align();
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .button {
+            height: 35%;
+            width: 55%;
+            background-color: #FFB800;
+            font-size: 2rem;
+            text-align: center;
+            border: none;
+        }
+
+        #add {
+            position: relative;
+            left: -3rem;
+            color: #fff;
+            transition: all .1s ease-in-out;
+        }
+
+        .button:nth-child(odd):hover{
+            background-color: #ce9300;
+        }
+        #dec {
+            transition: all .1s ease-in-out;
+            color: #fff;
+            position: relative;
+            left: 3rem;
+        }
+
+        #reset {
+            background-color: #fff;
+            border: 2px solid #FFB800;
+
+            .iconify {
+                transition: all .3s ease-in-out;
+                font-size: 2rem;
+            }
+        }
+        #reset:hover{
+            .iconify{
+                transform: rotateZ(-90deg);
+            }
+        }
+    }
+}

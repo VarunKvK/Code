@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap');
+.frame{
+    font-family: 'Shippori Antique B1', sans-serif;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background: rgb(58, 58, 58);
+    border-radius: 10px;
+    height: 500px;
+    width: 500px;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.2);
+    .outline{
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        border:10px solid  rgb(78, 78, 78);
+        border-radius: 50%;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        .animated-outline{
+            position: absolute;
+            height: 250px;
+            width: 250px;
+            border:6px solid  rgb(211, 75, 75);
+            border-radius: 50%;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            animation:ring 5s ease-in-out infinite;
+        }
+            .dots{
+                position: absolute;
+                height: 220px;
+                width: 220px;
+                border:3px dotted   rgb(255, 235, 235);
+                border-radius: 50%;
+                top:50%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                .watch{
+                    position: absolute;
+                    top:50%;
+                    left:50%;
+                    transform: translate(-50%,-40%);
+                    height: 220px;
+                    width: 220px;
+                    .day{
+                        color:#fff;
+                        font-size: 10px;
+                        position: relative;
+                        top:2rem;
+                        left:3.7rem;
+                    }
+
+                    .time{
+                        color:#fff;
+                        font-size: 40px;
+                        position: absolute;
+                        top:2rem;
+                        left:1.5rem;
+                    }
+
+                    .box-animated{
+                        height:10px;
+                        width: 10px;
+                        border:2px solid  rgb(211, 75, 75);
+                        border-radius: 2px;
+                        position:relative;
+                        top:5.5rem;
+                        left: 3.5rem;
+                        animation:box .9s ease-in-out  infinite;
+                    }
+                    .steps{
+                        color:#fff;
+                        font-size: 14px;
+                        position: relative;
+                        top:3.7rem;
+                        left:4.7rem;
+                    }
+
+                    .calories{
+                        color:#fff;
+                        font-size: 15px;
+                        position: absolute;
+                        top:6.4rem;
+                        left:6.7rem;
+                    }
+                }
+            }
+    }
+}
+
+// animation
+
+@keyframes box{
+    0%{
+        transform:scale(1);
+    }
+
+    35%{
+        transform:scale(1.1)
+    }
+}
+
+@keyframes ring{
+    0%{
+        background:rgb(199, 182, 87);
+    }
+
+    30%{
+        background:rgb(104, 199, 81);
+    }
+
+    40%{
+        background: rgb(255, 141, 249);
+    }
+    60%{
+        background: rgb(87, 171, 177);
+    }
+
+    100%{
+        background: rgb(199, 182, 87);
+    }
+}
+

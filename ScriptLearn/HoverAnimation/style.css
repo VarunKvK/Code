@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+body .container {
+  height: 20rem;
+  width: 20rem;
+  position: relative;
+}
+
+body .container .circle1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  left: 5rem;
+  top: 5rem;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 10rem;
+  position: absolute;
+  background: #e99c44;
+  -webkit-box-shadow: inset 0px 5px 10px rgba(131, 87, 36, 0.473);
+          box-shadow: inset 0px 5px 10px rgba(131, 87, 36, 0.473);
+  -webkit-box-shadow: 0px 5px 15px #744714;
+          box-shadow: 0px 5px 15px #744714;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+body .container .circle2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  left: 6.5rem;
+  top: 6.5rem;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 7rem;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  position: absolute;
+  background: #e9e644;
+  -webkit-box-shadow: inset 0px 5px 10px rgba(102, 83, 22, 0.452);
+          box-shadow: inset 0px 5px 10px rgba(102, 83, 22, 0.452);
+}
+
+body .container .circle3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  left: 7.5rem;
+  top: 7.5rem;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 5rem;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background: #78e944;
+  -webkit-box-shadow: inset 0px 5px 10px rgba(59, 114, 33, 0.4);
+          box-shadow: inset 0px 5px 10px rgba(59, 114, 33, 0.4);
+}
+
+body .container .circle3 .h1 {
+  font-size: 1.5rem;
+  font-family: "Gotham";
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,63 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: #fdde53;
+  font-family: Gotham;
+  color: #f88e15;
+}
+
+body .location {
+  width: 50%;
+  top: -8rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .location .icon {
+  position: relative;
+  top: .5rem;
+  left: .5rem;
+}
+
+body .temperature {
+  position: absolute;
+}
+
+body .temperature .degree {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+body .temperature .degree .temperature-degree {
+  font-size: 3rem;
+}
+
+body .temperature .degree span {
+  position: relative;
+  top: .5rem;
+  left: .5rem;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=style.css.map */

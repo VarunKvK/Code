@@ -1,0 +1,108 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-style: Gotham;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .filteritems {
+  height: 35rem;
+  width: 40rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ffe570;
+  -webkit-box-shadow: 2px 2px 10px #ffe570;
+          box-shadow: 2px 2px 10px #ffe570;
+}
+
+body .filteritems .search {
+  position: relative;
+  top: -14rem;
+  left: 1rem;
+  height: 3rem;
+  width: 4rem;
+  border: none;
+  background-color: #fdcb42;
+  color: white;
+  -webkit-box-shadow: 2px 2px 5px #fcc120;
+          box-shadow: 2px 2px 5px #fcc120;
+}
+
+body .filteritems .searchitems {
+  position: relative;
+  top: -14rem;
+  border-radius: .5rem;
+  border: none;
+  height: 3rem;
+  width: 25rem;
+  padding-left: 1.5rem;
+  -webkit-box-shadow: 2px 2px 5px white;
+          box-shadow: 2px 2px 5px white;
+}
+
+body .filteritems .productlist {
+  height: 27rem;
+  width: 25rem;
+  top: 10rem;
+  border-radius: .5rem;
+  background-color: #fff;
+  position: absolute;
+  -webkit-box-shadow: 2px 2px 5px white;
+          box-shadow: 2px 2px 5px white;
+}
+
+body .filteritems .productdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 4rem;
+}
+
+body .filteritems .hide {
+  visibility: hidden;
+}
+
+body .filteritems .productimage {
+  position: relative;
+  height: 6.5rem;
+  width: 6.5rem;
+  padding: 1rem;
+}
+
+body .filteritems .productdetail {
+  position: relative;
+  left: 6rem;
+  top: -3rem;
+  font: 1.5rem Gotham;
+  color: #ffa724;
+}
+
+body .filteritems .productcost {
+  position: relative;
+  left: 6rem;
+  top: -3rem;
+  font: 1rem Gotham;
+  color: #d37f00;
+}
+/*# sourceMappingURL=style.css.map */

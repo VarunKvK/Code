@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.u1{
+    height: 25rem;
+    width: 400rem;
+    background:rgb(255, 218, 149);
+}
+
+.u2{
+    height: 18.5rem;
+    width: 400rem;
+    background:rgb(141, 107, 56);
+}
+
+.man{
+    animation: man .8s ease-out 1s;
+	animation-fill-mode: both;
+    .leg1{
+        position: absolute;
+    	top: 150px;
+	    left: 600px;
+    	width: 151px;
+	    height: 245px;
+        transform-origin: 50% 0;
+        animation:leg1 2s linear infinite;
+        .shoe{
+            position:absolute;
+            width: 151px;
+            bottom:0px;
+	        height: 128px;
+            animation: shoe1 2s ease-in-out infinite;
+            background:url('https://100dayscss.com/codepen/doc-martens.svg') center center no-repeat;;
+        }
+    }
+
+    .leg2{
+        position: absolute;
+    	top: 155px;
+	    left: 550px;
+    	width: 151px;
+	    height: 245px;
+        transform-origin: 50% 0;
+        animation:leg2 2s linear infinite;
+        .shoe{
+            position:absolute;
+            animation: shoe2 2s ease-in-out infinite;
+            width: 151px;
+            bottom:0px;
+	        height: 128px;
+            background:url('https://100dayscss.com/codepen/doc-martens.svg') center center no-repeat;;
+        }
+    }
+}
+
+@keyframes leg1 {
+    0%{
+        transform: rotate(-20deg);
+    }
+
+    50%{
+        transform:rotate(40deg);
+    }
+
+    100%{
+        transform:rotate(-20deg)
+    }
+
+}
+
+@keyframes leg2 {
+    0%{
+        transform: rotate(50deg) ;
+    }
+
+    50%{
+        transform:rotate(-10deg);
+    }
+
+    100%{
+        transform:rotate(50deg);
+    }
+}
+
+@keyframes shoe1{
+    0%,100%{
+        transform: rotate(10deg);
+    }
+
+    50%{
+        transform: rotate(10deg) ;
+    }
+}
+
+@keyframes shoe2{
+    0%,100%{
+        transform: rotate(10deg) translateY(-5px) translateX(10px);
+    }
+
+    50%{
+        transform: rotate(10deg);
+    }
+}
+
+@keyframes man {
+    0%{
+        opacity:0;
+    }
+
+    100%{ 
+        opacity:1;}
+}

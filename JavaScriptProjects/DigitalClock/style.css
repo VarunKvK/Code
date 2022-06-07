@@ -1,0 +1,152 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Gotham;
+}
+
+body .clock-container {
+  height: 15rem;
+  width: 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #ffe75d;
+  position: relative;
+  -webkit-box-shadow: 2px 2px 13px #fdde2b, inset 2px 2px 13px #fdde2b;
+          box-shadow: 2px 2px 13px #fdde2b, inset 2px 2px 13px #fdde2b;
+}
+
+body .clock-container .hour-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10rem;
+  width: 9rem;
+  position: relative;
+}
+
+body .clock-container .hour-container .hour-digits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+  height: 3rem;
+  width: 3rem;
+  color: #ce8d02;
+  position: relative;
+  top: -.1rem;
+}
+
+body .clock-container .hour-container .hour {
+  color: #e2c000;
+}
+
+body .clock-container .minute-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10rem;
+  width: 9rem;
+  position: relative;
+}
+
+body .clock-container .minute-container .minute-digits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+  height: 3rem;
+  width: 3rem;
+  color: #ce8d02;
+  position: relative;
+  top: -.1rem;
+}
+
+body .clock-container .minute-container .minutes {
+  color: #e2c000;
+}
+
+body .clock-container .second-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10rem;
+  width: 9rem;
+  position: relative;
+}
+
+body .clock-container .second-container .second-digits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+  height: 3rem;
+  width: 3rem;
+  color: #ce8d02;
+  position: relative;
+  top: -.1rem;
+}
+
+body .clock-container .second-container .seconds {
+  color: #e2c000;
+}
+/*# sourceMappingURL=style.css.map */

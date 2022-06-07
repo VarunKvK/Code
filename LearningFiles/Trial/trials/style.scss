@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    min-height: 100vh;
+    @include center();
+
+    .animate {
+        height: 25rem;
+        width: 25rem;
+        background: #ff8;
+        border-radius: 10px;
+        box-shadow: 2px 2px 15px rgb(255, 255, 59);
+        @include center();
+
+        .scenery {
+            position: relative;
+            clip-path: circle(7.5rem at 7.5rem 7.5rem);
+            width: 15rem;
+            height: 15rem;
+            background-color: rgb(85, 178, 255);
+            box-shadow: 2px 2px 15px rgba(0, 111, 202, 0.473);
+
+            .ground {
+                position: absolute;
+                top:10rem;
+                height: 6rem;
+                width: 15rem;
+                background: rgb(255, 160, 82);
+            }
+
+            .sun{
+                position: absolute;
+                left: 2rem;
+                top:2rem;
+                height: 2.5rem;
+                width: 2.5rem;
+                border-radius: 2rem;
+                transform-origin: 50% 400%;
+                background-color: rgb(255, 166, 0);
+                box-shadow: 1px 1px 9px rgb(255, 166, 0);
+                animation: sun 4s linear infinite;
+            }
+
+            .mountain-side-one{
+                position: absolute;
+                background-color: #fff;
+                clip-path: polygon(0% 100%, 100% 100%, 60% 0%);
+                height: 2rem;
+                width: 4rem;
+                top: 8rem;
+                left:5rem;
+            }
+            .mountain-side-two{
+                position: absolute;
+                background-color: rgb(219, 219, 219);
+                clip-path: polygon(50% 100%, 100% 100%, 25% 0%);
+                height: 2rem;
+                width: 4rem;
+                top: 8rem;
+                left:6.4rem;
+            }
+            .mountain-shadow-two{
+                position: absolute;
+                background-color: rgb(219, 219, 219);
+                clip-path: polygon(10px 100%,50px 100%, 50px 40%);
+                height: 2rem;
+                width: 4rem;
+                top: 9.5rem;
+                left:6.4rem;
+                z-index: 2;
+            }
+        
+        }
+    }
+}
+
+@keyframes sun {
+    0%{
+        transform: rotate(-90deg);
+        opacity: 100;
+    }
+    20%{
+        transform: rotate(-80deg);
+    }
+    80%{
+        opacity: 60;
+    }
+    100%{
+        transform: rotate(90deg);
+        opacity: 0;
+    }
+}

@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+}
+
+body .container {
+  height: 20%;
+  width: 20%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .shape1 {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 10rem;
+  background: #b8eeff;
+  position: absolute;
+}
+
+body .container .shape2 {
+  position: absolute;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 5rem;
+  background: #519db4;
+}
+
+body .container .shape3 {
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  border-radius: 2rem;
+  background: #2a6577;
+}
+
+body .slider {
+  min-height: 10vh;
+  height: 45rem;
+  width: 85rem;
+  z-index: -3;
+  position: absolute;
+  background: lightblue;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1 class="calheading">Calculator</h1>
+        <button class="scientific"><span class="iconify" data-icon="fluent:pi-24-filled" style="color: white;"></span></button>
+        <div class="result">
+            <div class="previousinput">
+                <p id="previous-value"></p>
+            </div>
+            <div class="currentinput">
+                <p id="current-value"></p>
+            </div>
+        </div>
+
+        <div class="line1"></div>
+
+        <div class="button">
+            <button class="operator" id="clear">C</button>
+            <button class="operator" id="delete">Del</button>
+            <button class="operator" id="*">X</button>
+            <button class="operator" id="/">/</button>
+
+            <button class="number" id="1">1</button>
+            <button class="number" id="2">2</button>
+            <button class="number" id="3">3</button>
+            <button class="operator" id="+">+</button>
+
+            <button class="number" id="4">4</button>
+            <button class="number" id="5">5</button>
+            <button class="number" id="6">6</button>
+            <button class="operator" id="-">-</button>
+
+
+            <button class="number" id="7">7</button>
+            <button class="number" id="8">8</button>
+            <button class="number" id="9">9</button>
+            <button class="operator" id="=">=</button>
+
+            <button class="empty"></button>
+            <button class="number" id="0">0</button>
+            <button class="empty"></button>
+        </div>
+
+        <div class="scientific-buttons">
+            <button class="operator2" id="sin">Sin</button>     
+            <button class="operator2" id="cos">Cos</button>     
+            <button class="operator2" id="tan">Tan</button>     
+        </div>
+    </div>
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

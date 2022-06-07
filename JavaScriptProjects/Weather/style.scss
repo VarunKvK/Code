@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: rgb(253, 222, 83);
+    font-family: Gotham;
+    color: rgb(248, 142, 21);
+
+    .location {
+        width: 50%;
+        top: -8rem;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+
+        .icon {
+            position: relative;
+            top: .5rem;
+            left: .5rem;
+        }
+    }
+
+    .temperature {
+        position: absolute;
+        
+        .degree {
+            display: flex;
+            cursor: pointer;
+            .temperature-degree {
+                font-size: 3rem;
+            }
+
+            span {
+                position: relative;
+                top: .5rem;
+                left: .5rem;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

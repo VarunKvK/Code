@@ -1,0 +1,82 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Gotham;
+}
+
+body .container {
+  height: 18rem;
+  width: 30rem;
+  background: #f7f766;
+  border-radius: 1rem;
+  -webkit-box-shadow: 2px 2px 5px #f7f766;
+          box-shadow: 2px 2px 5px #f7f766;
+  position: relative;
+}
+
+body .container .type-container {
+  height: 10rem;
+  width: 28rem;
+  border-radius: 1rem;
+  border: none;
+  position: relative;
+  top: 2rem;
+  left: 1rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+body .container .wordcount {
+  position: relative;
+  left: 1rem;
+  font-size: 1.5rem;
+  color: #f39e00;
+  top: 3.5rem;
+}
+
+body .container .counts {
+  height: 2rem;
+  width: 2rem;
+  position: relative;
+  top: 1.8rem;
+  left: 11rem;
+  color: #cca700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container .clearbtn {
+  position: relative;
+  float: right;
+  right: 1rem;
+  top: -.5rem;
+  height: 3rem;
+  width: 5rem;
+  border: none;
+  background-color: #ffda35;
+  font-family: Gotham;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

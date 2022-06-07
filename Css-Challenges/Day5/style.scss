@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@700&display=swap');
+
+.container{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    margin-top:-200px;
+    margin-left:-250px;
+    top:50%;
+    left: 50%;
+    height: 400px;
+    width: 500px;
+    background: rgb(255, 136, 106);
+    border-radius: 20px;
+    box-shadow: 5px 12px 20px 5px rgba(0,0,0,0.2);
+    .center{
+        position:absolute;
+        height:300px;
+        width:400px;
+        box-shadow: 0 12px 20px 0px rgba(0,0,0,0.2);
+        background: rgb(255, 255, 255);
+        top:3rem;
+        left:3rem;
+        border-radius: 20px;
+        .header{
+            display:block;
+            position:absolute;
+            height:90px;
+            width: 400px;
+            background:rgb(235, 176, 99);
+            box-shadow: 0 2px 13px 0px rgba(0,0,0,0.2);
+            .week{
+                font-size: 17px;
+                position: absolute;
+                top: 1.5rem;
+                left:1rem;
+                color: #fff;
+            }
+            .date{
+                position:absolute;
+                top: 3rem;
+                left:2rem;
+                font-size: 15px;
+                color: #fff;
+            }
+            .revenue{
+                font-size:17px;
+                position:absolute;
+                left:17rem;
+                top: 1.5rem;
+                color: #fff;
+            }
+
+            .money{
+                font-size:15px;
+                position:absolute;
+                left:17rem;
+                top: 3rem;
+                color: #fff;
+            }
+        }
+        .index{
+            position: absolute;
+            top:5rem;
+            float:left;
+            left:-10px;
+            .red-line{
+                position:absolute;
+                top:1.2rem;
+                left:13rem;
+                height:5px;
+                width: 25px;
+                border-radius: 20px;
+                background: rgb(255, 37, 37);
+            }
+
+            .views{
+                font-size: 13px;
+                position:absolute;
+                left:14.7rem;
+                top:-0.1rem;
+            }
+
+            .blue-line{
+                position:absolute;
+                top:1.2rem;
+                left:19rem;
+                height:5px;
+                width: 25px;
+                border-radius: 20px;
+                background: rgb(37, 150, 255);
+            }
+
+            .purchase{
+                font-size: 13px;
+                position:absolute;
+                left:20.7rem;
+                top:-0.1rem;
+            }
+        }
+
+        .line-1{
+            position:absolute;
+            top:8rem;
+            left:25px;
+            border-radius: 20px;
+            height: 3px;
+            width:350px;
+            background: rgba(230, 230, 230, 0.774);
+        }
+        .line-2{
+            position:absolute;
+            top:11.5rem;
+            left:25px;
+            border-radius: 20px;
+            height: 3px;
+            width:350px;
+            background: rgba(230, 230, 230, 0.774);
+        }
+        .line-3{
+            position:absolute;
+            top:15rem;
+            left:25px;
+            border-radius: 20px;
+            height: 3px;
+            width:350px;
+            background: rgba(230, 230, 230, 0.774);
+        }
+
+        .data-red{
+            position: relative;
+            top:7.5rem;
+            left:13px;
+        }
+
+        .data-blue{
+            position: relative;
+            top:6.5rem;
+            left:13px;
+        }
+
+        .dataR{
+
+            .point{
+
+                .point1{
+                    width: 9px;
+                    height:9px;
+                    border-radius:8px;
+                    background: rgb(255, 37, 37);
+                    position:absolute;
+                    display: flex;
+                    top:3rem;
+                    z-index: 10;
+
+                    &:hover .tooltip{
+                        visibility: visible;
+                        opacity: 1;
+                        transform: translate3d(-50%, 0, 0);
+                    }
+                }
+
+                .point2{
+                    width: 9px;
+                    height:9px;
+                    border-radius:8px;
+                    background: rgb(255, 37, 37);
+                    position:absolute;
+                    display: flex;
+                    top:0.7rem;
+                    left:4rem;
+                    z-index: 10;
+
+                    &:hover .tooltip{
+                        visibility: visible;
+                        opacity: 1;
+                        transform: translate3d(-50%, 0, 0);
+                    }
+                }
+
+                .point3{
+                    width: 9px;
+                    height:9px;
+                    border-radius:8px;
+                    background: rgb(255, 37, 37);
+                    position:absolute;
+                    display: flex;
+                    top:3.5rem;
+                    left:7.78rem;
+                    z-index: 10;
+
+                    &:hover .tooltip{
+                        visibility: visible;
+                        opacity: 1;
+                        transform: translate3d(-50%, 0, 0);
+                    }
+                }
+
+                .point4{
+                    width: 9px;
+                    height:9px;
+                    border-radius:8px;
+                    background: rgb(255, 37, 37);
+                    position:absolute;
+                    display: flex;
+                    top:2.2rem;
+                    left:9.9rem;
+                    z-index: 10;
+
+                    &:hover .tooltip{
+                        visibility: visible;
+                        opacity: 1;
+                        transform: translate3d(-50%, 0, 0);
+                    }
+                }
+
+                .point5{
+                    width: 9px;
+                    height:9px;
+                    border-radius:8px;
+                    background: rgb(255, 37, 37);
+                    position:absolute;
+                    display: flex;
+                    top:4rem;
+                    left:13.9rem;
+                    z-index: 10;
+
+                    &:hover .tooltip{
+                        visibility: visible;
+                        opacity: 1;
+                        transform: translate3d(-50%, 0, 0);
+                    }
+                }
+
+                .point6{
+                    z-index: 10;
+                    width: 9px;
+                    height:9px;
+                    border-radius:8px;
+                    background: rgb(255, 37, 37);
+                    position:absolute;
+                    display: flex;
+                    top:3rem;
+                    left:16.4rem;
+
+                    &:hover .tooltip{
+                        visibility: visible;
+                        opacity: 1;
+                        transform: translate3d(-50%, 0, 0);
+                    }
+                }
+
+                .point7{
+                    z-index: 10;
+                    width: 9px;
+                    height:9px;
+                    border-radius:8px;
+                    background: rgb(255, 37, 37);
+                    position:absolute;
+                    display: flex;
+                    top:1.5rem;
+                    left:18.5rem;
+
+                    &:hover .tooltip{
+                        visibility: visible;
+                        opacity: 1;
+                        transform: translate3d(-50%, 0, 0);
+                    }
+                }
+
+                .point8{
+                    width: 9px;
+                    height:9px;
+                    border-radius:8px;
+                    background: rgb(255, 37, 37);
+                    position:absolute;
+                    display: flex;
+                    top:4.5rem;
+                    left: 20.6rem;
+                    z-index: 10;
+
+                    &:hover .tooltip{
+                        visibility: visible;
+                        opacity: 1;
+                        transform: translate3d(-50%, 0, 0);
+                    }
+                }
+
+                .point9{
+                    width: 9px;
+                    height:9px;
+                    border-radius:8px;
+                    background: rgb(255, 37, 37);
+                    position:absolute;
+                    display: flex;
+                    top:0rem;
+                    left: 23rem;
+                    z-index: 10;
+
+                    &:hover .tooltip{
+                        visibility: visible;
+                        opacity: 1;
+                        transform: translate3d(-50%, 0, 0);
+                    }
+                }
+
+                .tooltip {
+                    position: absolute;
+                    bottom: 13px;
+                    left: 50%;
+                    transform: translate3d(-50%, 10px, 0);
+                    font-weight: 600;
+                    font-size: 11px;
+                    line-height: 11px;
+                    color: #fff;
+                    background:rgb(255, 37, 37);
+                    padding: 8px 6px;
+                    border-radius: 3px;
+                    visibility: hidden;
+                    opacity: 0;
+                    transition: transform 0.4s ease-out 0s, opacity 0.4s ease-out 0s;
+                }
+            }
+        }
+
+        .dataB{
+
+            .point{
+
+                .point1{
+                    width: 9px;
+                    height:9px;
+                    border-radius:8px;
+                    background: rgb(37, 150, 255);
+                    position:absolute;
+                    display: flex;
+                    top:2.3rem;
+                    z-index: 10;
+
+                    &:hover .tooltip{
+                        visibility: visible;
+                        opacity: 1;
+                        transform: translate3d(-50%, 0, 0);
+                    }
+                }
+
+                .point2{
+                    width: 9px;
+                    height:9px;
+                    border-radius:8px;
+                    background: rgb(37, 150, 255);
+                    position:absolute;
+                    display: flex;
+                    top:0.6rem;
+                    left:4.2rem;
+                    z-index: 10;
+
+                    &:hover .tooltip{
+                        visibility: visible;
+                        opacity: 1;
+                        transform: translate3d(-50%, 0, 0);
+                    }
+                }
+
+                .point3{
+                    width: 9px;
+                    height:9px;
+                    border-radius:8px;
+                    background: rgb(37, 150, 255);
+                    position:absolute;
+                    display: flex;
+                    top:0.9rem;
+                    left:7.5rem;
+                    z-index: 10;
+
+                    &:hover .tooltip{
+                        visibility: visible;
+                        opacity: 1;
+                        transform: translate3d(-50%, 0, 0);
+                    }
+                }
+
+                .point4{
+                    width: 9px;
+                    height:9px;
+                    border-radius:8px;
+                    background: rgb(37, 150, 255);
+                    position:absolute;
+                    display: flex;
+                    top:0rem;
+                    left:9.5rem;
+                    z-index: 10;
+
+                    &:hover .tooltip{
+                        visibility: visible;
+                        opacity: 1;
+                        transform: translate3d(-50%, 0, 0);
+                    }
+                }
+
+                .point5{
+                    width: 9px;
+                    height:9px;
+                    border-radius:8px;
+                    background: rgb(37, 150, 255);
+                    position:absolute;
+                    display: flex;
+                    top:2.3rem;
+                    left:13rem;
+                    z-index: 10;
+
+                    &:hover .tooltip{
+                        visibility: visible;
+                        opacity: 1;
+                        transform: translate3d(-50%, 0, 0);
+                    }
+                }
+
+                .point6{
+                    z-index: 10;
+                    width: 9px;
+                    height:9px;
+                    border-radius:8px;
+                    background: rgb(37, 150, 255);
+                    position:absolute;
+                    display: flex;
+                    top:1.7rem;
+                    left:13.7rem;
+
+                    &:hover .tooltip{
+                        visibility: visible;
+                        opacity: 1;
+                        transform: translate3d(-50%, 0, 0);
+                    }
+                }
+
+                .point7{
+                    z-index: 10;
+                    width: 9px;
+                    height:9px;
+                    border-radius:8px;
+                    background: rgb(37, 150, 255);
+                    position:absolute;
+                    display: flex;
+                    top:0rem;
+                    left:16.2rem;
+
+                    &:hover .tooltip{
+                        visibility: visible;
+                        opacity: 1;
+                        transform: translate3d(-50%, 0, 0);
+                    }
+                }
+
+                .point8{
+                    width: 9px;
+                    height:9px;
+                    border-radius:8px;
+                    background: rgb(37, 150, 255);
+                    position:absolute;
+                    display: flex;
+                    top:3rem;
+                    left: 18.4rem;
+                    z-index: 10;
+
+                    &:hover .tooltip{
+                        visibility: visible;
+                        opacity: 1;
+                        transform: translate3d(-50%, 0, 0);
+                    }
+                }
+
+                .point9{
+                    width: 9px;
+                    height:9px;
+                    border-radius:8px;
+                    background: rgb(37, 150, 255);
+                    position:absolute;
+                    display: flex;
+                    top:1rem;
+                    left: 19.3rem;
+                    z-index: 10;
+
+                    &:hover .tooltip{
+                        visibility: visible;
+                        opacity: 1;
+                        transform: translate3d(-50%, 0, 0);
+                    }
+                }
+
+                .point10{
+                    width: 9px;
+                    height:9px;
+                    border-radius:8px;
+                    background: rgb(37, 150, 255);
+                    position:absolute;
+                    display: flex;
+                    top:2.2rem;
+                    left: 14.6rem;
+                    z-index: 10;
+
+                    &:hover .tooltip{
+                        visibility: visible;
+                        opacity: 1;
+                        transform: translate3d(-50%, 0, 0);
+                    }
+                }
+
+                .point11{
+                    width: 9px;
+                    height:9px;
+                    border-radius:8px;
+                    background: rgb(37, 150, 255);
+                    position:absolute;
+                    display: flex;
+                    top:2.1rem;
+                    left: 21.9rem;
+                    z-index: 10;
+
+                    &:hover .tooltip{
+                        visibility: visible;
+                        opacity: 1;
+                        transform: translate3d(-50%, 0, 0);
+                    }
+                }
+
+                .point12{
+                    width: 9px;
+                    height:9px;
+                    border-radius:8px;
+                    background: rgb(37, 150, 255);
+                    position:absolute;
+                    display: flex;
+                    top:1.55rem;
+                    left: 23rem;
+                    z-index: 10;
+
+                    &:hover .tooltip{
+                        visibility: visible;
+                        opacity: 1;
+                        transform: translate3d(-50%, 0, 0);
+                    }
+                }
+
+
+
+
+
+                .tooltip {
+                    position: absolute;
+                    bottom: 13px;
+                    left: 50%;
+                    transform: translate3d(-50%, 10px, 0);
+                    font-weight: 600;
+                    font-size: 11px;
+                    line-height: 11px;
+                    color: #fff;
+                    background:rgb(37, 150, 255);
+                    padding: 8px 6px;
+                    border-radius: 3px;
+                    visibility: hidden;
+                    opacity: 0;
+                    transition: transform 0.4s ease-out 0s, opacity 0.4s ease-out 0s;
+                }
+            }
+            
+        }
+
+        .week{
+            display:flex;
+            position: relative;
+            top:6rem;
+            list-style: none;
+            padding-left:16px;
+            li{
+                font-size: 15px;
+                padding:11px;
+            }
+        }
+
+    }
+    
+}

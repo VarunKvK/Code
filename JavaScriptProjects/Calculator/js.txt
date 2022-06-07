@@ -1,0 +1,27 @@
+let scientific = document.querySelector(".scientific");
+scientific.addEventListener('click', tranformscientific);
+
+function tranformscientific() {
+    let calculator = document.querySelector(".calculator");
+    let scientificButton = document.querySelector(".scientific-buttons");
+    let button = document.querySelector(".button");
+    let line1 = document.querySelector(".line1");
+    let result = document.querySelector(".result");
+    let clear = document.getElementById("clear");
+    let deletes = document.getElementById("delete");
+    let multiply = document.getElementById("*");
+
+    calculator.style.width = "50rem"
+    scientificButton.style.opacity = "100%"
+    button.style.columnGap = "-2rem"
+    button.style.rowGap = "-2rem"
+    button.style.width = "50%"
+    button.style.left = "25rem"
+    clear.style.left = "1rem"
+    deletes.style.left = "1rem"
+    multiply.style.left = "1rem"
+    line1.style.width = "92%"
+    scientificButton.style.width = "50%"
+    scientificButton.style.left = "2rem"
+
+}

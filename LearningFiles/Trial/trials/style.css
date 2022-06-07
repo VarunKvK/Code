@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .animate {
+  height: 25rem;
+  width: 25rem;
+  background: #ff8;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 15px #ffff3b;
+          box-shadow: 2px 2px 15px #ffff3b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .animate .scenery {
+  position: relative;
+  -webkit-clip-path: circle(7.5rem at 7.5rem 7.5rem);
+          clip-path: circle(7.5rem at 7.5rem 7.5rem);
+  width: 15rem;
+  height: 15rem;
+  background-color: #55b2ff;
+  -webkit-box-shadow: 2px 2px 15px rgba(0, 111, 202, 0.473);
+          box-shadow: 2px 2px 15px rgba(0, 111, 202, 0.473);
+}
+
+body .animate .scenery .ground {
+  position: absolute;
+  top: 10rem;
+  height: 6rem;
+  width: 15rem;
+  background: #ffa052;
+}
+
+body .animate .scenery .sun {
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 2rem;
+  -webkit-transform-origin: 50% 400%;
+          transform-origin: 50% 400%;
+  background-color: #ffa600;
+  -webkit-box-shadow: 1px 1px 9px #ffa600;
+          box-shadow: 1px 1px 9px #ffa600;
+  -webkit-animation: sun 4s linear infinite;
+          animation: sun 4s linear infinite;
+}
+
+body .animate .scenery .mountain-side-one {
+  position: absolute;
+  background-color: #fff;
+  -webkit-clip-path: polygon(0% 100%, 100% 100%, 60% 0%);
+          clip-path: polygon(0% 100%, 100% 100%, 60% 0%);
+  height: 2rem;
+  width: 4rem;
+  top: 8rem;
+  left: 5rem;
+}
+
+body .animate .scenery .mountain-side-two {
+  position: absolute;
+  background-color: #dbdbdb;
+  -webkit-clip-path: polygon(50% 100%, 100% 100%, 25% 0%);
+          clip-path: polygon(50% 100%, 100% 100%, 25% 0%);
+  height: 2rem;
+  width: 4rem;
+  top: 8rem;
+  left: 6.4rem;
+}
+
+body .animate .scenery .mountain-shadow-two {
+  position: absolute;
+  background-color: #dbdbdb;
+  -webkit-clip-path: polygon(10px 100%, 50px 100%, 50px 40%);
+          clip-path: polygon(10px 100%, 50px 100%, 50px 40%);
+  height: 2rem;
+  width: 4rem;
+  top: 9.5rem;
+  left: 6.4rem;
+  z-index: 2;
+}
+
+@-webkit-keyframes sun {
+  0% {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    opacity: 100;
+  }
+  20% {
+    -webkit-transform: rotate(-80deg);
+            transform: rotate(-80deg);
+  }
+  80% {
+    opacity: 60;
+  }
+  100% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    opacity: 0;
+  }
+}
+
+@keyframes sun {
+  0% {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    opacity: 100;
+  }
+  20% {
+    -webkit-transform: rotate(-80deg);
+            transform: rotate(-80deg);
+  }
+  80% {
+    opacity: 60;
+  }
+  100% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

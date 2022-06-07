@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+    .todolistcontainer {
+        height: 30rem;
+        width: 30rem;
+        background-color: rgb(255, 229, 115);
+        border-radius: 10px;
+        box-shadow: 2px 5px 15px rgba(63, 63, 63, 0.253);
+
+        .todoheader {
+            position: relative;
+            top: 2rem;
+            left: 11rem;
+            color: rgb(168, 146, 49);
+        }
+
+        .todolistinput {
+            position: relative;
+            top: 2.7rem;
+            left: 4rem;
+            height: 2.5rem;
+            width: 19rem;
+            border: none;
+            border-radius: 3px;
+        }
+        input{
+            padding-left: 1rem;
+            margin: none;
+            font-size: 1rem;
+            font-family: 'Poppins', sans-serif;
+        }
+        .addtodolist {
+            height: 2.5rem;
+            width: 2.5rem;
+            position: relative;
+            top: 3rem;
+            left: 4rem;
+            border: none;
+            background-color: rgb(255, 208, 0);
+
+            .iconify {
+                height: 1.5rem;
+                width: 1.5rem;
+            }
+        }
+
+        .tolistitems {
+            .itemcontainer {
+                list-style: none;
+
+                .deleteicon {
+                    position: relative;
+                    float: right;
+                    right: 0rem;
+                    top: -1.54rem;
+                    background-color: rgb(255, 208, 0);
+                    height: 2.5rem;
+                    width: 2.5rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    border: none;
+                }
+
+                .completeicon {
+                    position: relative;
+                    float: right;
+                    right: 0rem;
+                    top: -1.54rem;
+                    background-color: rgb(154, 255, 107);
+                    height: 2.5rem;
+                    width: 2.5rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    border: none;
+                }
+
+                .todolistiadded {
+                    position: relative;
+                    margin-top: 1rem;
+                    top: 4rem;
+                    left: 4rem;
+                    height: 2.5rem;
+                    width: 21.8rem;
+                    border: none;
+                    border-radius: 3px;
+                    background-color: #fff;
+                }
+
+                .liststyle {
+                    list-style: none;
+                    display: flex;
+                    align-items: center;
+                    left: 1rem;
+                    position: relative;
+                    top:.5rem;
+                }
+            }
+
+            .itemanimatedremove {
+                transform: translateX(1000px);
+                opacity: 0;
+                transition: all .5s ease-in-out;
+            }
+
+            .itemanimatedcomplete {
+                opacity: 0.5;
+                transition: all .5s ease-in-out;
+            }
+        }
+    }
+}

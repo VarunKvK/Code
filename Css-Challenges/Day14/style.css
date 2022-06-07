@@ -1,0 +1,544 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50%;
+  width: 90%;
+  background-color: #584934;
+  -webkit-perspective: 800px;
+          perspective: 800px;
+}
+
+body .container .flip {
+  position: relative;
+  width: 60%;
+  height: 60%;
+  background-color: #ffa600;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 20px 10px rgba(48, 47, 47, 0.596);
+          box-shadow: 5px 5px 20px 10px rgba(48, 47, 47, 0.596);
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+body .container .flip:hover {
+  -webkit-transform: rotateX(180deg) translate3d(0, 0, 0);
+          transform: rotateX(180deg) translate3d(0, 0, 0);
+  -webkit-box-shadow: 8px -10px 15px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 8px -10px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+body .container .flip .front {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  z-index: 2;
+}
+
+body .container .flip .front svg {
+  -webkit-animation: bike .5s linear infinite;
+          animation: bike .5s linear infinite;
+  width: 8rem;
+}
+
+body .container .flip .front .street {
+  height: .8rem;
+  width: 12rem;
+  position: absolute;
+  bottom: 2.5rem;
+  left: 12rem;
+}
+
+body .container .flip .front .street .line1 {
+  height: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+  position: absolute;
+  width: 5px;
+  -webkit-animation: line1 0.8s linear 0.3s infinite;
+          animation: line1 0.8s linear 0.3s infinite;
+}
+
+body .container .flip .front .street .line2 {
+  height: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+  position: absolute;
+  width: 10px;
+  left: .5rem;
+  -webkit-animation: line3 0.8s linear 0.7s infinite;
+          animation: line3 0.8s linear 0.7s infinite;
+}
+
+body .container .flip .front .street .line3 {
+  height: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+  position: absolute;
+  width: 8px;
+  left: 1rem;
+  -webkit-animation: line3 0.8s linear 0.4s infinite;
+          animation: line3 0.8s linear 0.4s infinite;
+}
+
+body .container .flip .front .street .line4 {
+  height: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+  position: absolute;
+  width: 20px;
+  left: 2rem;
+  -webkit-animation: line4 0.8s linear 1s infinite;
+          animation: line4 0.8s linear 1s infinite;
+}
+
+body .container .flip .front .street .line5 {
+  height: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+  position: absolute;
+  width: 20px;
+  left: 2.5rem;
+  -webkit-animation: line5 0.8s linear 0.4s infinite;
+          animation: line5 0.8s linear 0.4s infinite;
+}
+
+body .container .flip .front .street .line7 {
+  height: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+  position: absolute;
+  width: 5px;
+  left: 3.5rem;
+  -webkit-animation: line7 0.8s linear 0.1s infinite;
+          animation: line7 0.8s linear 0.1s infinite;
+}
+
+body .container .flip .front .street .line6 {
+  height: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+  position: absolute;
+  width: 10px;
+  left: 4.5rem;
+  -webkit-animation: line6 0.8s linear 0.7s infinite;
+          animation: line6 0.8s linear 0.7s infinite;
+}
+
+body .container .flip .front .street .line8 {
+  height: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+  position: absolute;
+  width: 30px;
+  left: 5.5rem;
+  -webkit-animation: line8 0.8s linear 0.1s infinite;
+          animation: line8 0.8s linear 0.1s infinite;
+}
+
+body .container .flip .front .street .line9 {
+  height: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+  position: absolute;
+  width: 20px;
+  left: 9rem;
+  -webkit-animation: line9 0.7s linear 0.5s infinite;
+          animation: line9 0.7s linear 0.5s infinite;
+}
+
+body .container .flip .back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+
+body .container .flip .back svg {
+  z-index: 1;
+  position: relative;
+  top: 12rem;
+  left: 7rem;
+  width: 8rem;
+  -webkit-animation: helicopter 1.5s ease-in-out infinite;
+          animation: helicopter 1.5s ease-in-out infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+body .container .flip .back .sky {
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  top: 15rem;
+  left: 13rem;
+}
+
+body .container .flip .back .sky .line1 {
+  height: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+  position: absolute;
+  width: 5px;
+  -webkit-animation: line1 0.8s linear 0.2s infinite;
+          animation: line1 0.8s linear 0.2s infinite;
+}
+
+body .container .flip .back .sky .line2 {
+  height: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+  position: absolute;
+  width: 10px;
+  top: 5rem;
+  left: .5rem;
+  -webkit-animation: line3 0.8s linear 0.2s infinite;
+          animation: line3 0.8s linear 0.2s infinite;
+}
+
+body .container .flip .back .sky .line3 {
+  top: 6rem;
+  height: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+  position: absolute;
+  width: 8px;
+  left: 1rem;
+  -webkit-animation: line3 0.7s linear 0.7s infinite;
+          animation: line3 0.7s linear 0.7s infinite;
+}
+
+body .container .flip .back .sky .line4 {
+  height: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+  position: absolute;
+  width: 20px;
+  left: 2rem;
+  -webkit-animation: line4 0.7s linear 0.6s infinite;
+          animation: line4 0.7s linear 0.6s infinite;
+}
+
+body .container .flip .back .sky .line5 {
+  height: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+  position: absolute;
+  width: 20px;
+  top: 10rem;
+  left: 2.5rem;
+  -webkit-animation: line5 0.7s linear 0.6s infinite;
+          animation: line5 0.7s linear 0.6s infinite;
+}
+
+body .container .flip .back .sky .line7 {
+  height: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+  position: absolute;
+  width: 5px;
+  left: 3.5rem;
+  top: 8rem;
+  -webkit-animation: line7 0.7s linear 0.5s infinite;
+          animation: line7 0.7s linear 0.5s infinite;
+}
+
+body .container .flip .back .sky .line6 {
+  height: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+  position: absolute;
+  width: 10px;
+  top: 4rem;
+  left: 4.5rem;
+  -webkit-animation: line6 0.7s linear 0.2s infinite;
+          animation: line6 0.7s linear 0.2s infinite;
+}
+
+body .container .flip .back .sky .line8 {
+  height: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+  position: absolute;
+  width: 30px;
+  left: 5.5rem;
+  top: 5rem;
+  -webkit-animation: line8 0.8s linear 0.7s infinite;
+          animation: line8 0.8s linear 0.7s infinite;
+}
+
+body .container .flip .back .sky .line9 {
+  height: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+  position: absolute;
+  width: 20px;
+  left: 9rem;
+  top: 10rem;
+  -webkit-animation: line9 0.8s linear 0.2s infinite;
+          animation: line9 0.8s linear 0.2s infinite;
+}
+
+@-webkit-keyframes line1 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scaleX(1);
+            transform: translate3d(0, 0, 0) scaleX(1);
+  }
+  100% {
+    -webkit-transform: translate3d(-150px, 0, 0) scaleX(0.8);
+            transform: translate3d(-150px, 0, 0) scaleX(0.8);
+  }
+}
+
+@keyframes line1 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scaleX(1);
+            transform: translate3d(0, 0, 0) scaleX(1);
+  }
+  100% {
+    -webkit-transform: translate3d(-150px, 0, 0) scaleX(0.8);
+            transform: translate3d(-150px, 0, 0) scaleX(0.8);
+  }
+}
+
+@-webkit-keyframes line3 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scaleX(1);
+            transform: translate3d(0, 0, 0) scaleX(1);
+  }
+  100% {
+    -webkit-transform: translate3d(-150px, 0, 0) scaleX(0.8);
+            transform: translate3d(-150px, 0, 0) scaleX(0.8);
+  }
+}
+
+@keyframes line3 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scaleX(1);
+            transform: translate3d(0, 0, 0) scaleX(1);
+  }
+  100% {
+    -webkit-transform: translate3d(-150px, 0, 0) scaleX(0.8);
+            transform: translate3d(-150px, 0, 0) scaleX(0.8);
+  }
+}
+
+@-webkit-keyframes line4 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scaleX(1);
+            transform: translate3d(0, 0, 0) scaleX(1);
+  }
+  100% {
+    -webkit-transform: translate3d(-150px, 0, 0) scaleX(0.8);
+            transform: translate3d(-150px, 0, 0) scaleX(0.8);
+  }
+}
+
+@keyframes line4 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scaleX(1);
+            transform: translate3d(0, 0, 0) scaleX(1);
+  }
+  100% {
+    -webkit-transform: translate3d(-150px, 0, 0) scaleX(0.8);
+            transform: translate3d(-150px, 0, 0) scaleX(0.8);
+  }
+}
+
+@-webkit-keyframes line5 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scaleX(1);
+            transform: translate3d(0, 0, 0) scaleX(1);
+  }
+  100% {
+    -webkit-transform: translate3d(-150px, 0, 0) scaleX(0.8);
+            transform: translate3d(-150px, 0, 0) scaleX(0.8);
+  }
+}
+
+@keyframes line5 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scaleX(1);
+            transform: translate3d(0, 0, 0) scaleX(1);
+  }
+  100% {
+    -webkit-transform: translate3d(-150px, 0, 0) scaleX(0.8);
+            transform: translate3d(-150px, 0, 0) scaleX(0.8);
+  }
+}
+
+@-webkit-keyframes line6 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scaleX(1);
+            transform: translate3d(0, 0, 0) scaleX(1);
+  }
+  100% {
+    -webkit-transform: translate3d(-150px, 0, 0) scaleX(0.8);
+            transform: translate3d(-150px, 0, 0) scaleX(0.8);
+  }
+}
+
+@keyframes line6 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scaleX(1);
+            transform: translate3d(0, 0, 0) scaleX(1);
+  }
+  100% {
+    -webkit-transform: translate3d(-150px, 0, 0) scaleX(0.8);
+            transform: translate3d(-150px, 0, 0) scaleX(0.8);
+  }
+}
+
+@-webkit-keyframes line7 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scaleX(1);
+            transform: translate3d(0, 0, 0) scaleX(1);
+  }
+  100% {
+    -webkit-transform: translate3d(-150px, 0, 0) scaleX(0.8);
+            transform: translate3d(-150px, 0, 0) scaleX(0.8);
+  }
+}
+
+@keyframes line7 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scaleX(1);
+            transform: translate3d(0, 0, 0) scaleX(1);
+  }
+  100% {
+    -webkit-transform: translate3d(-150px, 0, 0) scaleX(0.8);
+            transform: translate3d(-150px, 0, 0) scaleX(0.8);
+  }
+}
+
+@-webkit-keyframes line8 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scaleX(1);
+            transform: translate3d(0, 0, 0) scaleX(1);
+  }
+  100% {
+    -webkit-transform: translate3d(-150px, 0, 0) scaleX(0.8);
+            transform: translate3d(-150px, 0, 0) scaleX(0.8);
+  }
+}
+
+@keyframes line8 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scaleX(1);
+            transform: translate3d(0, 0, 0) scaleX(1);
+  }
+  100% {
+    -webkit-transform: translate3d(-150px, 0, 0) scaleX(0.8);
+            transform: translate3d(-150px, 0, 0) scaleX(0.8);
+  }
+}
+
+@-webkit-keyframes line9 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scaleX(1);
+            transform: translate3d(0, 0, 0) scaleX(1);
+  }
+  100% {
+    -webkit-transform: translate3d(-150px, 0, 0) scaleX(0.8);
+            transform: translate3d(-150px, 0, 0) scaleX(0.8);
+  }
+}
+
+@keyframes line9 {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0) scaleX(1);
+            transform: translate3d(0, 0, 0) scaleX(1);
+  }
+  100% {
+    -webkit-transform: translate3d(-150px, 0, 0) scaleX(0.8);
+            transform: translate3d(-150px, 0, 0) scaleX(0.8);
+  }
+}
+
+@-webkit-keyframes bike {
+  0%, 100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  50% {
+    -webkit-transform: scaleY(1.04);
+            transform: scaleY(1.04);
+  }
+}
+
+@keyframes bike {
+  0%, 100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  50% {
+    -webkit-transform: scaleY(1.04);
+            transform: scaleY(1.04);
+  }
+}
+
+@-webkit-keyframes helicopter {
+  0%, 100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  50% {
+    -webkit-transform: scaleY(1.04);
+            transform: scaleY(1.04);
+  }
+}
+
+@keyframes helicopter {
+  0%, 100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  50% {
+    -webkit-transform: scaleY(1.04);
+            transform: scaleY(1.04);
+  }
+}
+/*# sourceMappingURL=style.css.map */

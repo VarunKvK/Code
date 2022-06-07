@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  background: #070707;
+}
+
+body .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  width: 500px;
+  height: 60px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+body .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 390px;
+}
+
+body .menu ul li {
+  list-style: none;
+  position: relative;
+  width: 78px;
+  height: 60px;
+  z-index: 2;
+}
+
+body .menu ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  text-decoration: none;
+  position: relative;
+}
+
+body .menu ul li a .icon {
+  position: relative;
+  display: block;
+  line-height: 65px;
+  font-size: 1.5em;
+  color: #000;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .menu ul li a .text {
+  position: absolute;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 0.9em;
+  width: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 400;
+  -webkit-transform: translateY(15px);
+          transform: translateY(15px);
+  background: #c53f3f;
+  opacity: 0;
+  -webkit-transition: 0.5;
+  transition: 0.5;
+}
+
+body .menu ul .active a .icon {
+  -webkit-transform: translateY(-32px);
+          transform: translateY(-32px);
+  color: #fd6d6d;
+}
+
+body .menu ul .active .text {
+  opacity: 1;
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+}
+
+body .menu ul .indicator {
+  position: absolute;
+  width: 78px;
+  height: 70px;
+  top: -35px;
+  left: 60px;
+  border-radius: 50%;
+  background: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .menu li:nth-child(1) .active ~ .indicator {
+  -webkit-transform: translateX(calc(78px*0));
+          transform: translateX(calc(78px*0));
+}
+
+body .menu li:nth-child(2) .active ~ .indicator {
+  -webkit-transform: translateX(calc(78px*1));
+          transform: translateX(calc(78px*1));
+}
+
+body .menu li:nth-child(3) .active ~ .indicator {
+  -webkit-transform: translateX(calc(78px*2));
+          transform: translateX(calc(78px*2));
+}
+
+body .menu li:nth-child(4) .active ~ .indicator {
+  -webkit-transform: translateX(calc(78px*3));
+          transform: translateX(calc(78px*3));
+}
+
+body .menu li:nth-child(5) .active ~ .indicator {
+  -webkit-transform: translateX(calc(78px*4));
+          transform: translateX(calc(78px*4));
+}
+
+body .menu .indicator::before {
+  content: '';
+  position: absolute;
+  background: transparent;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 5px;
+  -webkit-box-shadow: 15px 18px white;
+          box-shadow: 15px 18px white;
+  left: -28.4px;
+}
+
+body .menu .indicator::after {
+  content: '';
+  position: absolute;
+  background: transparent;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 5px;
+  -webkit-box-shadow: -15px 18px white;
+          box-shadow: -15px 18px white;
+  right: -28.4px;
+}
+/*# sourceMappingURL=style.css.map */

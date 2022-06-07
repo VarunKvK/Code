@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+body .todolistcontainer {
+  height: 30rem;
+  width: 30rem;
+  background-color: #ffe573;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 5px 15px rgba(63, 63, 63, 0.253);
+          box-shadow: 2px 5px 15px rgba(63, 63, 63, 0.253);
+}
+
+body .todolistcontainer .todoheader {
+  position: relative;
+  top: 2rem;
+  left: 11rem;
+  color: #a89231;
+}
+
+body .todolistcontainer .todolistinput {
+  position: relative;
+  top: 2.7rem;
+  left: 4rem;
+  height: 2.5rem;
+  width: 19rem;
+  border: none;
+  border-radius: 3px;
+}
+
+body .todolistcontainer input {
+  padding-left: 1rem;
+  margin: none;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+body .todolistcontainer .addtodolist {
+  height: 2.5rem;
+  width: 2.5rem;
+  position: relative;
+  top: 3rem;
+  left: 4rem;
+  border: none;
+  background-color: #ffd000;
+}
+
+body .todolistcontainer .addtodolist .iconify {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+body .todolistcontainer .tolistitems .itemcontainer {
+  list-style: none;
+}
+
+body .todolistcontainer .tolistitems .itemcontainer .deleteicon {
+  position: relative;
+  float: right;
+  right: 0rem;
+  top: -1.54rem;
+  background-color: #ffd000;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  border: none;
+}
+
+body .todolistcontainer .tolistitems .itemcontainer .completeicon {
+  position: relative;
+  float: right;
+  right: 0rem;
+  top: -1.54rem;
+  background-color: #9aff6b;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  border: none;
+}
+
+body .todolistcontainer .tolistitems .itemcontainer .todolistiadded {
+  position: relative;
+  margin-top: 1rem;
+  top: 4rem;
+  left: 4rem;
+  height: 2.5rem;
+  width: 21.8rem;
+  border: none;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+body .todolistcontainer .tolistitems .itemcontainer .liststyle {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  left: 1rem;
+  position: relative;
+  top: .5rem;
+}
+
+body .todolistcontainer .tolistitems .itemanimatedremove {
+  -webkit-transform: translateX(1000px);
+          transform: translateX(1000px);
+  opacity: 0;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+body .todolistcontainer .tolistitems .itemanimatedcomplete {
+  opacity: 0.5;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+/*# sourceMappingURL=style.css.map */

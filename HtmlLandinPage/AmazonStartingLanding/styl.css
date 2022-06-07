@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+body .circle {
+  height: 57rem;
+  width: 90rem;
+  position: absolute;
+  background-color: #FFC020;
+  z-index: 10;
+}
+
+body .circle .amazon {
+  position: relative;
+  top: 20rem;
+  left: 35rem;
+  font-size: 3rem;
+  z-index: 2;
+  color: #ffffff;
+}
+
+body .circle .square {
+  height: 5rem;
+  width: 20rem;
+  background-color: #FFC020;
+  position: absolute;
+  top: 20rem;
+  left: 48rem;
+  z-index: 20;
+}
+
+body .circle4 {
+  height: 5rem;
+  width: 5rem;
+  border: #FFC020 solid 2px;
+  border-radius: 5rem;
+}
+
+body .circle2 {
+  height: 57rem;
+  width: 90rem;
+  position: absolute;
+  background-color: #ffd362;
+  z-index: 5;
+}
+
+body .circle3 {
+  height: 57rem;
+  width: 90rem;
+  position: absolute;
+  background-color: #946a00;
+  z-index: 3;
+}
+
+body .firstpage {
+  min-height: 100vh;
+}
+
+body .firstpage .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .firstpage .menu .logo .title {
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+body .firstpage .menu .logo .title .a, body .firstpage .menu .logo .title .z {
+  color: #FFC020;
+}
+
+body .firstpage .menu .logo .arrow {
+  position: relative;
+  top: -14px;
+  left: 10px;
+  font-size: 5rem;
+}
+
+body .firstpage .menu .searchbar {
+  height: 5rem;
+}
+
+body .firstpage .menu .searchbar .longerbar {
+  width: 35rem;
+  height: 3rem;
+  background: #ffffff;
+  -webkit-box-shadow: 10px 10px 10px rgba(90, 90, 90, 0.096);
+          box-shadow: 10px 10px 10px rgba(90, 90, 90, 0.096);
+  margin-top: 10px;
+  position: relative;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+body .firstpage .menu .searchbar .shortbar {
+  width: 5rem;
+  height: 3rem;
+  background: #FFC020;
+  position: relative;
+  top: -3rem;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+body .firstpage .menu .searchbar .iconify {
+  position: relative;
+  background: #0000;
+  top: -5.3rem;
+  left: 1.5rem;
+  font-size: 1.7rem;
+}
+
+body .firstpage .return {
+  position: relative;
+  height: 3rem;
+  width: 5rem;
+  margin-top: 10px;
+}
+
+body .firstpage .return .returns {
+  position: relative;
+  font-size: 1rem;
+}
+
+body .firstpage .shop {
+  margin-top: 15px;
+  margin-left: -30px;
+}
+
+body .firstpage .shop .iconify {
+  font-size: 2.5rem;
+}
+
+body .firstpage .profile {
+  width: 3rem;
+  height: 3rem;
+  margin-top: 10px;
+  border-radius: 3rem;
+  background: rgba(255, 166, 0, 0.986);
+}
+
+body .firstpage .content {
+  position: relative;
+  top: -4rem;
+}
+
+body .firstpage .content .moto {
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: 5rem;
+  z-index: -1;
+}
+
+body .firstpage .content .hands1 {
+  position: relative;
+  top: -14rem;
+  right: -2rem;
+  float: right;
+  z-index: 1;
+}
+
+body .firstpage .content .hands2 {
+  position: relative;
+  top: -14rem;
+  left: -2rem;
+  float: left;
+  z-index: 1;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+body .firstpage .prime {
+  height: 10rem;
+  width: 50rem;
+  background: white;
+  -webkit-box-shadow: 5px 5px 20px rgba(90, 90, 90, 0.267);
+          box-shadow: 5px 5px 20px rgba(90, 90, 90, 0.267);
+  position: relative;
+  top: 3rem;
+  left: 17.5rem;
+}
+
+body .firstpage .prime .primes {
+  color: #00E0FF;
+}
+
+body .firstpage .prime .header {
+  position: absolute;
+  padding: 1rem;
+}
+
+body .firstpage .prime .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 35rem;
+  position: relative;
+  top: -16rem;
+  left: 1rem;
+}
+
+body .firstpage .prime .icons .iconify {
+  position: relative;
+  font-size: 5rem;
+}
+
+body .firstpage .prime .click {
+  position: relative;
+  top: -22.5rem;
+  float: right;
+  right: 20px;
+  width: 6rem;
+  height: 6rem;
+  background: #00E0FF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 20px;
+  -webkit-box-shadow: inset 5px 5px 20px rgba(255, 255, 255, 0.685), 5px 5px 20px rgba(90, 90, 90, 0.267);
+          box-shadow: inset 5px 5px 20px rgba(255, 255, 255, 0.685), 5px 5px 20px rgba(90, 90, 90, 0.267);
+}
+
+body .firstpage .prime .click svg {
+  width: 5rem;
+  height: 5rem;
+}
+
+body .secondpage {
+  min-height: 100vh;
+}
+
+body .secondpage .top {
+  font-size: 4rem;
+  position: relative;
+  left: 13rem;
+  top: 10rem;
+  width: 50rem;
+}
+
+body .secondpage .top .text {
+  color: #FFC020;
+}
+
+body .secondpage .picks .pic1 {
+  width: 31rem;
+  height: 21rem;
+  border: 1px solid #000;
+  position: relative;
+  top: 17rem;
+  left: 10rem;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .secondpage .picks .pic1 img {
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 30rem;
+  height: 20rem;
+  top: 0rem;
+  border-radius: 20px;
+}
+
+body .secondpage .picks .pic2 {
+  width: 31rem;
+  height: 26rem;
+  border-radius: 20px;
+  position: relative;
+  top: 26rem;
+  left: 10rem;
+  border: 1px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .secondpage .picks .pic2 img {
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 30rem;
+  height: 25rem;
+  border-radius: 20px;
+}
+
+body .secondpage .picks .pic3 {
+  width: 26rem;
+  height: 51rem;
+  border: 1px solid #000;
+  position: relative;
+  float: right;
+  right: 10rem;
+  top: -28rem;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .secondpage .picks .pic3 img {
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 25rem;
+  height: 50rem;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=styl.css.map */

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    position: relative;
+    .container{
+        height: 20%;
+        width: 20%;
+        position: absolute;
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items:center;
+
+        .shape1{
+            height: 10rem;
+            width: 10rem;
+            border-radius: 10rem;
+            background:rgb(184, 238, 255);
+            position: absolute;
+        }
+
+        .shape2{
+            position: absolute;
+            height: 5rem;
+            width: 5rem;
+            border-radius: 5rem;
+            background:rgb(81, 157, 180);
+        }
+
+        .shape3{
+            height: 2rem;
+            width: 2rem;
+            position: absolute;
+            border-radius: 2rem;
+            background:rgb(42, 101, 119);
+        }
+    }
+
+    .slider{
+        min-height:10vh;
+        height:45rem;
+        width:85rem;
+        z-index: -3;
+        position: absolute;
+        background:lightblue;
+    }
+}

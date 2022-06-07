@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+body .heightconvertor {
+  height: 30rem;
+  width: 30rem;
+  -webkit-box-shadow: 4px 0px 20px rgba(0, 0, 0, 0.2), inset 4px 0px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 4px 0px 20px rgba(0, 0, 0, 0.2), inset 4px 0px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .heightconvertor .equal {
+  cursor: pointer;
+}
+
+body .heightconvertor .heighttext {
+  position: absolute;
+  top: 9rem;
+  color: #ffc16f;
+}
+
+body .heightconvertor input {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 4px 0px 20px rgba(0, 0, 0, 0.2), inset 4px 0px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 4px 0px 20px rgba(0, 0, 0, 0.2), inset 4px 0px 20px rgba(0, 0, 0, 0.2);
+  border: none;
+  margin: 2.5rem;
+  padding-left: 1rem;
+  font-size: 2rem;
+}
+
+body .heightconvertor .inputconverted {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 4px 0px 20px rgba(0, 0, 0, 0.2), inset 4px 0px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 4px 0px 20px rgba(0, 0, 0, 0.2), inset 4px 0px 20px rgba(0, 0, 0, 0.2);
+  border: none;
+  margin: 2.5rem;
+  padding-left: 1rem;
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .heightconvertor .equal {
+  font-size: 4rem;
+  color: #575757;
+}
+
+body .heightconvertor #heightmeasurement {
+  position: absolute;
+  top: 25rem;
+  left: 38.5%;
+  border: none;
+}
+
+body .heightconvertor .heightmeasurement {
+  position: absolute;
+  top: 25rem;
+  left: 55.5%;
+  border: none;
+}
+/*# sourceMappingURL=style.css.map */

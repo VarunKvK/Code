@@ -1,0 +1,120 @@
+@import './colors/color.scss';
+@import './fonts/fonts.scss';
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+    //section
+    .menuheader {
+
+        //nav-menu
+        .menubar {
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 24px;
+            position: absolute;
+
+            //Heading of the Site
+            /*.site{
+                .sitename{
+
+                }
+            }*/
+            //menuicon
+            .menuicon {
+                position: relative;
+                padding: 25px;
+                left:18rem;
+                .menulogo {
+                    position: absolute;
+                    top: calc(20px/3);
+                    left: calc(20px/3);
+                }
+            }
+        }
+
+        .menuoption {
+            position: relative;
+            float: right;
+            top: 0;
+            height: 100vh;
+            width: 40vh;
+            background-color: $menuoptioncolor;
+            transform: translateX(16.4rem);
+            visibility: hidden;
+            .listmenu {
+                position: relative;
+                top: 80px;
+                list-style: none;
+                .menu {
+                    transition: all 2s ease-in-out;
+                    padding: 1rem;
+                    position: relative;
+                    a {
+                        position: relative;
+                        z-index: 10;
+                        color: #fff;
+                        display: flex;
+                        text-decoration: none;
+
+                        .iconify {
+                            margin-right: 15px;
+                            font-size: 35px;
+                        }
+
+                        h2 {
+                            font-size: 25px;
+                        }
+                    }
+                    &.active::after {
+                        content: " ";
+                        position: absolute;
+                        height: 60px;
+                        width: 40vh;
+                        left: -32px;
+                        top:0;
+                        box-shadow: inset 3px 4px 10px rgba(0, 0, 0, 0.445);
+                        border-top-left-radius: 15px;
+                        border-top-right-radius: 15px;
+                        background-color: $primarycolor;
+                        transition: all .5s ease-in-out;
+                    }
+                }
+            }
+        }
+        .menuoptionopen{
+            transition: all 1s ease-in-out;
+            visibility: visible;
+            transform: translateX(0rem);
+        }
+        .menucloseicon{
+            position: relative;
+            z-index: 2;
+        }
+        .line1{
+            stroke: #fff;
+            transform-origin: center;
+            transition: all .5s ease-in-out;
+            transform: rotateZ(40deg) translateY(.5rem);
+        }
+        .line2{
+            transition: all .5s ease-in-out;
+            stroke: #fff;
+            transform-origin: center;
+            transform: rotateZ(-40deg);
+        }
+        .line3{
+            transition: all .5s ease-in-out;
+            transform: translateX(-5rem);
+        }
+    }
+}
+

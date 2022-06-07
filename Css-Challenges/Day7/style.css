@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@700&display=swap");
+.container {
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Poppins', sans-serif;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(90%, 15%);
+          transform: translate(90%, 15%);
+  background: #5d7ebb;
+  height: 500px;
+  width: 500px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 1px 10px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.container .center {
+  height: 350px;
+  width: 350px;
+  background: white;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 10px;
+  -webkit-box-shadow: 0 1px 10px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.container .center .header .menu {
+  position: relative;
+  height: 70px;
+  width: 350px;
+  background: #6f96df;
+  -webkit-transition: all 0.3 ease-in-out;
+  transition: all 0.3 ease-in-out;
+}
+
+.container .center .header .menu .line1 {
+  height: 4px;
+  width: 30px;
+  background: white;
+  border-radius: 2px;
+  position: absolute;
+  margin: 0.6rem;
+  top: 1rem;
+  -webkit-transition: all 0.3 ease-in-out;
+  transition: all 0.3 ease-in-out;
+}
+
+.container .center .header .menu .line2 {
+  height: 4px;
+  width: 30px;
+  background: white;
+  border-radius: 2px;
+  position: relative;
+  margin: 0.6rem;
+  top: 1rem;
+  -webkit-transition: all 0.3 ease-in-out;
+  transition: all 0.3 ease-in-out;
+}
+
+.container .center .header .menu .line3 {
+  height: 4px;
+  width: 30px;
+  background: white;
+  border-radius: 2px;
+  position: absolute;
+  margin: 0.6rem;
+  top: 1.6rem;
+  -webkit-transition: all 0.3 ease-in-out;
+  transition: all 0.3 ease-in-out;
+}
+
+.container .center .header .line1:hover {
+  background: #a09f9f;
+  -webkit-transition: all 0.3 ease-in-out;
+  transition: all 0.3 ease-in-out;
+}
+
+.container .center .header .line2:hover {
+  background: #cecbcb;
+  -webkit-transition: all 0.3 ease-in-out;
+  transition: all 0.3 ease-in-out;
+}
+
+.container .center .header .line3:hover {
+  background: gray;
+  -webkit-transition: all 0.3 ease-in-out;
+  transition: all 0.3 ease-in-out;
+}
+
+.container .center .header .notification {
+  color: #4872c0;
+  position: relative;
+  top: -5.5rem;
+  left: 5.3rem;
+}
+
+.container .center .header .search {
+  height: 15px;
+  width: 15px;
+  border: 3px solid white;
+  border-radius: 2px;
+  position: relative;
+  top: -9rem;
+  float: right;
+  right: 1rem;
+}
+
+.container .center .timing .line .l1 {
+  height: 63px;
+  width: 2px;
+  background: #b8b8b8;
+  position: absolute;
+  top: 6rem;
+  left: 2rem;
+}
+
+.container .center .timing .line .l2 {
+  height: 63px;
+  width: 2px;
+  background: #b8b8b8;
+  position: absolute;
+  top: 11rem;
+  left: 2rem;
+}
+
+.container .center .timing .line .l3 {
+  height: 63px;
+  width: 2px;
+  background: #b8b8b8;
+  position: absolute;
+  top: 16rem;
+  left: 2rem;
+}
+
+.container .center .timing .line .c1 {
+  height: 13px;
+  top: 5rem;
+  width: 13px;
+  border-radius: 10px;
+  background: #b8b8b8;
+  left: 1.7rem;
+  position: absolute;
+}
+
+.container .center .timing .line .c2 {
+  height: 13px;
+  top: 10.5rem;
+  width: 13px;
+  border-radius: 10px;
+  background: #b8b8b8;
+  left: 1.7rem;
+  position: absolute;
+}
+
+.container .center .timing .line .c3 {
+  height: 13px;
+  top: 15.3rem;
+  width: 13px;
+  border-radius: 10px;
+  background: #b8b8b8;
+  left: 1.7rem;
+  position: absolute;
+}
+
+.container .center .timing .schedule {
+  position: absolute;
+  left: 3rem;
+  top: 4rem;
+}
+
+.container .center .timing .schedule .S1 {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.container .center .timing .schedule .S1 .s1 {
+  font-size: 17px;
+}
+
+.container .center .timing .schedule .S1 .time1 {
+  font-size: 13px;
+  opacity: 50%;
+}
+
+.container .center .timing .schedule .S2 {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.container .center .timing .schedule .S2 .s2 {
+  font-size: 17px;
+  position: relative;
+  top: 1rem;
+}
+
+.container .center .timing .schedule .S2 .time2 {
+  position: relative;
+  top: 1rem;
+  font-size: 13px;
+  opacity: 50%;
+}
+
+.container .center .timing .schedule .S3 {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.container .center .timing .schedule .S3 .time3 {
+  position: relative;
+  top: 1.3rem;
+  font-size: 13px;
+  opacity: 50%;
+}
+
+.container .center .timing .schedule .S3 .s3 {
+  font-size: 17px;
+  position: relative;
+  top: 1rem;
+}
+
+.container .center .timing .schedule .S1:hover {
+  cursor: pointer;
+  color: #c58945;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.container .center .timing .schedule .S2:hover {
+  cursor: pointer;
+  color: #c58945;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.container .center .timing .schedule .S3:hover {
+  cursor: pointer;
+  color: #c58945;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.container.show-center {
+  -webkit-transform: translate3d(150px, 0, 0);
+          transform: translate3d(150px, 0, 0);
+}
+
+.container .menubar {
+  position: absolute;
+  width: 170px;
+  height: 350px;
+  top: 75px;
+  left: 30px;
+  background: #72a5d1;
+  border-radius: 3px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translate3d(50px, 0px, 0);
+          transform: translate3d(50px, 0px, 0);
+}
+
+.container .menubar .m1 {
+  position: relative;
+  left: 2rem;
+}
+
+.container .menubar .m1 .icon {
+  height: 12px;
+  width: 12px;
+  border: 3px solid white;
+  border-radius: 2px;
+  top: 3.5rem;
+  left: -1.3rem;
+  position: relative;
+}
+
+.container .menubar .m1 .dashboard {
+  position: relative;
+  top: 1.1rem;
+  left: 5px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.container .menubar .m2 {
+  position: relative;
+  left: 2rem;
+}
+
+.container .menubar .m2 .icon {
+  height: 12px;
+  width: 12px;
+  border: 3px solid white;
+  border-radius: 2px;
+  top: 3.5rem;
+  left: -1.3rem;
+  position: relative;
+}
+
+.container .menubar .m2 .settings {
+  position: relative;
+  top: 0.9rem;
+  left: 5px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.container .menubar .m3 {
+  position: relative;
+  left: 2rem;
+}
+
+.container .menubar .m3 .icon {
+  height: 12px;
+  width: 12px;
+  border: 3px solid white;
+  border-radius: 2px;
+  top: 3.5rem;
+  left: -1.3rem;
+  position: relative;
+}
+
+.container .menubar .m3 .about {
+  position: relative;
+  top: 0.9rem;
+  left: 5px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.container .menubar .menubar:hover {
+  -webkit-transform: translate3d(0px, 0px, 0);
+          transform: translate3d(0px, 0px, 0);
+}
+/*# sourceMappingURL=style.css.map */

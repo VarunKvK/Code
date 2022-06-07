@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bakbak One', cursive;
+  background: #000;
+  overflow-x: hidden;
+}
+
+.page .firstpage {
+  max-width: 50rem;
+  max-height: 30rem;
+}
+
+.page .firstpage .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: .5em;
+  font-size: 3em;
+  color: #fff;
+}
+
+.page .firstpage .menu {
+  display: block;
+  left: 45em;
+  top: -3.6rem;
+  position: relative;
+  z-index: 10;
+}
+
+.page .firstpage .menubar a {
+  padding: 40px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.page .firstpage .heading {
+  color: #fff;
+  z-index: 7;
+  position: relative;
+  font-size: 5em;
+  padding: 20px;
+}
+
+.page .firstpage .moto {
+  text-decoration: underline;
+  color: #fff;
+  position: relative;
+  padding-left: 20px;
+  top: -30px;
+  font-size: 2em;
+  font-family: Catamaran;
+}
+
+.page .firstpage .creditimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 20em;
+  top: 3.4em;
+  z-index: 2;
+  height: 40rem;
+  width: 80rem;
+}
+/*# sourceMappingURL=insurancestyle.css.map */

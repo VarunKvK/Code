@@ -1,0 +1,85 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    height: 100vh;
+    @include center();
+    font-family: Gotham;
+
+    .clock-container {
+        height: 15rem;
+        width: 30rem;
+        @include center();
+        justify-content: space-around;
+        background-color: rgb(255, 231, 93);
+        position: relative;
+        box-shadow: 2px 2px 13px rgb(253, 222, 43),
+        inset 2px 2px 13px rgb(253, 222, 43);
+
+        .hour-container {
+            @include center();
+            height: 10rem;
+            width: 9rem;
+            position: relative;
+            .hour-digits {
+                @include center();
+                font-size: 2rem;
+                height: 3rem;
+                width: 3rem;
+                color:rgb(206, 141, 2) ;
+                position: relative;
+                top:-.1rem;
+            }
+            .hour{
+                color:rgb(226, 192, 0) ;
+            }
+        }
+
+        .minute-container {
+            @include center();
+            height: 10rem;
+            width: 9rem;
+            position: relative;
+            .minute-digits {
+                @include center();
+                font-size: 2rem;
+                height: 3rem;
+                width: 3rem;
+                color:rgb(206, 141, 2) ;
+                position: relative;
+                top:-.1rem;
+            }
+            .minutes{
+                color:rgb(226, 192, 0) ;
+            }
+        }
+
+        .second-container {
+            @include center();
+            height: 10rem;
+            width: 9rem;
+            position: relative;
+            .second-digits {
+                @include center();
+                font-size: 2rem;
+                height: 3rem;
+                width: 3rem;
+                color:rgb(206, 141, 2) ;
+                position: relative;
+                top:-.1rem;
+            }
+            .seconds{
+                color:rgb(226, 192, 0) ;
+            }
+        }
+    }
+}

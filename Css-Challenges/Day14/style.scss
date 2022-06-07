@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    .container{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 90%;
+        background-color: rgb(88, 73, 52);
+        perspective: 800px;
+
+        .flip{
+            position: relative;
+            width: 60%;
+            height: 60%;
+            background-color: rgb(255, 166, 0);
+            border-radius: 10px;
+            box-shadow: 5px 5px 20px 10px rgba(48, 47, 47, 0.596);
+            transform-style: preserve-3d;
+            transition: all 1s ease-in-out;
+            perspective: 1000px;
+            &:hover {
+                transform: rotateX(180deg) translate3d(0,0,0);
+                box-shadow: 8px -10px 15px 0 rgba(0,0,0,0.5);
+            }
+            .front{
+                display: flex;
+                position: relative;
+                justify-content: center;
+                align-items: center;
+                transition: all .5s linear;
+                backface-visibility: hidden;
+                z-index: 2;
+                svg{
+                    animation: bike .5s linear infinite;
+                    width: 8rem;
+                }
+                .street{
+                    height: .8rem;
+                    width: 12rem; 
+                    position: absolute;
+                    bottom:2.5rem;
+                    left:12rem;
+                    .line1{
+                        height: 3px;
+                        border-radius: 3px;
+                        background-color: #fff;
+                        position: absolute;
+                        width: 5px;
+                        animation: line1 (0.6 + random(2) / 10) + s linear (random(10) / 10) + s infinite;
+                    }
+                    .line2{
+                        height: 3px;
+                        border-radius: 3px;
+                        background-color: #fff;
+                        position: absolute;
+                        width: 10px;
+                        left:.5rem;
+                        animation: line3 (0.6 + random(2) / 10) + s linear (random(10) / 10) + s infinite;
+                    }
+                    .line3{
+                        height: 3px;
+                        border-radius: 3px;
+                        background-color: #fff;
+                        position: absolute;
+                        width: 8px;
+                        left:1rem;
+                        animation: line3 (0.6 + random(2) / 10) + s linear (random(10) / 10) + s infinite;
+                    }
+                    .line4{
+                        height: 3px;
+                        border-radius: 3px;
+                        background-color: #fff;
+                        position: absolute;
+                        width: 20px;
+                        left: 2rem;
+                        animation: line4 (0.6 + random(2) / 10) + s linear (random(10) / 10) + s infinite;
+                    }
+                    .line5{
+                        height: 3px;
+                        border-radius: 3px;
+                        background-color: #fff;
+                        position: absolute;
+                        width: 20px;
+                        left: 2.5rem;
+                        animation: line5 (0.6 + random(2) / 10) + s linear (random(10) / 10) + s infinite;
+                    }
+                    .line7{
+                        height: 3px;
+                        border-radius: 3px;
+                        background-color: #fff;
+                        position: absolute;
+                        width: 5px;
+                        left: 3.5rem;
+                        animation: line7 (0.6 + random(2) / 10) + s linear (random(10) / 10) + s infinite;
+                    }
+                    .line6{
+                        height: 3px;
+                        border-radius: 3px;
+                        background-color: #fff;
+                        position: absolute;
+                        width: 10px;
+                        left: 4.5rem;
+                        animation: line6 (0.6 + random(2) / 10) + s linear (random(10) / 10) + s infinite;
+                    }
+                    .line8{
+                        height: 3px;
+                        border-radius: 3px;
+                        background-color: #fff;
+                        position: absolute;
+                        width: 30px;
+                        left: 5.5rem;
+                        animation: line8 (0.6 + random(2) / 10) + s linear (random(10) / 10) + s infinite;
+                    }
+                    .line9{
+                        height: 3px;
+                        border-radius: 3px;
+                        background-color: #fff;
+                        position: absolute;
+                        width: 20px;
+                        left: 9rem;
+                        animation: line9 (0.6 + random(2) / 10) + s linear (random(10) / 10) + s infinite;
+                    }
+                }
+            }
+
+            .back{
+                backface-visibility: hidden;
+                transform: rotateX(180deg);
+                svg{
+                    z-index: 1;
+                    position: relative;
+                    top:12rem;
+                    left:7rem;
+                    width: 8rem;
+                    animation: helicopter 1.5s ease-in-out infinite;
+                    animation-fill-mode: both;
+                }
+                .sky{
+                    height: 10rem;
+                    width: 10rem; 
+                    position: absolute;
+                    top:15rem;
+                    left:13rem;
+                    .line1{
+                        height: 3px;
+                        border-radius: 3px;
+                        background-color: #fff;
+                        position: absolute;
+                        width: 5px;
+                        animation: line1 (0.6 + random(2) / 10) + s linear (random(10) / 10) + s infinite;
+                    }
+                    .line2{
+                        height: 3px;
+                        border-radius: 3px;
+                        background-color: #fff;
+                        position: absolute;
+                        width: 10px;
+                        top:5rem;
+                        left:.5rem;
+                        animation: line3 (0.6 + random(2) / 10) + s linear (random(10) / 10) + s infinite;
+                    }
+                    .line3{
+                        top:6rem;
+                        height: 3px;
+                        border-radius: 3px;
+                        background-color: #fff;
+                        position: absolute;
+                        width: 8px;
+                        left:1rem;
+                        animation: line3 (0.6 + random(2) / 10) + s linear (random(10) / 10) + s infinite;
+                    }
+                    .line4{
+                        height: 3px;
+                        border-radius: 3px;
+                        background-color: #fff;
+                        position: absolute;
+                        width: 20px;
+                        left: 2rem;
+                        animation: line4 (0.6 + random(2) / 10) + s linear (random(10) / 10) + s infinite;
+                    }
+                    .line5{
+                        height: 3px;
+                        border-radius: 3px;
+                        background-color: #fff;
+                        position: absolute;
+                        width: 20px;
+                        top:10rem;
+                        left: 2.5rem;
+                        animation: line5 (0.6 + random(2) / 10) + s linear (random(10) / 10) + s infinite;
+                    }
+                    .line7{
+                        height: 3px;
+                        border-radius: 3px;
+                        background-color: #fff;
+                        position: absolute;
+                        width: 5px;
+                        left: 3.5rem;
+                        top:8rem;
+                        animation: line7 (0.6 + random(2) / 10) + s linear (random(10) / 10) + s infinite;
+                    }
+                    .line6{
+                        height: 3px;
+                        border-radius: 3px;
+                        background-color: #fff;
+                        position: absolute;
+                        width: 10px;
+                        top:4rem;
+                        left: 4.5rem;
+                        animation: line6 (0.6 + random(2) / 10) + s linear (random(10) / 10) + s infinite;
+                    }
+                    .line8{
+                        height: 3px;
+                        border-radius: 3px;
+                        background-color: #fff;
+                        position: absolute;
+                        width: 30px;
+                        left: 5.5rem;
+                        top:5rem;
+                        animation: line8 (0.6 + random(2) / 10) + s linear (random(10) / 10) + s infinite;
+                    }
+                    .line9{
+                        height: 3px;
+                        border-radius: 3px;
+                        background-color: #fff;
+                        position: absolute;
+                        width: 20px;
+                        left: 9rem;
+                        top:10rem;
+                        animation: line9 (0.6 + random(2) / 10) + s linear (random(10) / 10) + s infinite;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@keyframes line1{
+    0% {
+		transform: translate3d(0, 0, 0) scaleX(1);
+	}
+	100% {
+		transform: translate3d(-150px,0,0) scaleX(.8);
+	}
+}
+
+@keyframes line3{
+    0% {
+		transform: translate3d(0, 0, 0) scaleX(1);
+	}
+	100% {
+		transform: translate3d(-150px,0,0) scaleX(.8);
+	}
+}
+@keyframes line4{
+    0% {
+		transform: translate3d(0, 0, 0) scaleX(1);
+	}
+	100% {
+		transform: translate3d(-150px,0,0) scaleX(.8);
+	}
+}
+@keyframes line5{
+    0% {
+		transform: translate3d(0, 0, 0) scaleX(1);
+	}
+	100% {
+		transform: translate3d(-150px,0,0) scaleX(.8);
+	}
+}
+@keyframes line6{
+    0% {
+		transform: translate3d(0, 0, 0) scaleX(1);
+	}
+	100% {
+		transform: translate3d(-150px,0,0) scaleX(.8);
+	}
+}
+@keyframes line7{
+    0% {
+		transform: translate3d(0, 0, 0) scaleX(1);
+	}
+	100% {
+		transform: translate3d(-150px,0,0) scaleX(.8);
+	}
+}
+@keyframes line8{
+    0% {
+		transform: translate3d(0, 0, 0) scaleX(1);
+	}
+	100% {
+		transform: translate3d(-150px,0,0) scaleX(.8);
+	}
+}
+@keyframes line9{
+    0% {
+		transform: translate3d(0, 0, 0) scaleX(1);
+	}
+	100% {
+		transform: translate3d(-150px,0,0) scaleX(.8);
+	}
+}
+@keyframes bike {
+    0%,100% {
+		transform: scaleY(1);
+	}
+	50% {
+		transform: scaleY(1.04);
+	}
+}
+
+@keyframes helicopter {
+    0%,100% {
+		transform: scaleY(1);
+	}
+	50% {
+		transform: scaleY(1.04);
+	}
+}

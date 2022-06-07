@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Doctype</title>
+</head>
+
+<body>
+    <h2>Calculate</h2>
+    A=<input id="inpt1" type="text" placeholder="1st number"><br>
+    B=<input id="inpt2" type="text" placeholder="2nd number"><br>
+    <button onclick="add()">ADD</button>
+    <button onclick="subtract()">SUBTRACT</button>
+    <button onclick="multiply()">MULTIPLY</button>
+    <button onclick="divide()">DIVIDE</button>
+    <h3 id="ans"></h3>
+    <script>
+        function add() {
+            let a = document.getElementById("inpt1").value;
+
+            let b = document.getElementById("inpt2").value;
+            let add = parseInt(a) + parseInt(b);
+            document.getElementById("ans").innerText =`Addition of ${a} + ${b} is ${add}.`;
+
+        }
+
+        function subtract() {
+            let a = document.getElementById("inpt1").value;
+
+            let b = document.getElementById("inpt2").value;
+            let sub = parseInt(a) - parseInt(b);
+            document.getElementById("ans").innerText  =`Subtraction of ${a} - ${b} is ${sub}.`;
+        }
+
+        function divide() {
+            let a = document.getElementById("inpt1").value;
+
+            let b = document.getElementById("inpt2").value;
+            let div = parseInt(a) / parseInt(b);
+            document.getElementById("ans").innerText  =`Division of ${a} / ${b} is ${div}.`;
+        }
+
+        function multiply() {
+            let a = document.getElementById("inpt1").value;
+
+            let b = document.getElementById("inpt2").value;
+            let mult = parseInt(a) * parseInt(b);
+            document.getElementById("ans").innerText  =`Multiplication of ${a} * ${b} is ${mult}.`;
+        }
+    </script>
+</body>
+
+</html>

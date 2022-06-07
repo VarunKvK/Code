@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    top:10rem;
+    left:5rem;
+    transform: translate(50%,50%);
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.outercircle{
+    height: 5rem;
+    width: 5rem;
+    background: rgb(28, 153, 115);
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:40px;
+    left:40px;
+    cursor: pointer;
+    transition:all .5s ease-in-out;
+}
+
+.line{
+    height:3rem;
+    width: 3rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:all .5s ease-in-out;
+}
+
+.l1{
+    position: relative;
+    height: 5px;
+    width: 45px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    transition:all .5s ease-in-out;
+}
+
+.l2{
+    position: absolute;
+    height: 5px;
+    width: 45px;
+    top:.6rem;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    transition:all .5s ease-in-out;
+}
+
+.l3{
+    position: absolute;
+    height: 5px;
+    top:2.2rem;
+    width: 45px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    transition:all .5s ease-in-out;
+}

@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    min-height: 100vh;
+    overflow: hidden;
+    font-family: Gotham;
+    @include center();
+
+    .notescontainer {
+        height: 25rem;
+        width: 40rem;
+        background-color: rgb(223, 223, 223);
+        position: relative;
+        .addbutton {
+            height: 10rem;
+            width: 10rem;
+            background-color: rgb(255, 176, 72);
+            @include center();
+            color: white;
+            opacity: 40%;
+            transition: .2s ease-in-out;
+            position: relative;
+        }
+        .addbutton:hover{
+            opacity: 100%;
+        }
+        .creatediv{
+            position: relative;
+            top: -10rem,;
+            left:10.5rem;
+            height: 10rem;
+            width: 10rem;
+            background-color: rgb(255, 176, 72);
+        }
+    }
+}

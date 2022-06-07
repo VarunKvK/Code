@@ -1,0 +1,650 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@700&display=swap");
+.container {
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  margin-top: -200px;
+  margin-left: -250px;
+  top: 50%;
+  left: 50%;
+  height: 400px;
+  width: 500px;
+  background: #ff886a;
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 12px 20px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 12px 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+.container .center {
+  position: absolute;
+  height: 300px;
+  width: 400px;
+  -webkit-box-shadow: 0 12px 20px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 12px 20px 0px rgba(0, 0, 0, 0.2);
+  background: white;
+  top: 3rem;
+  left: 3rem;
+  border-radius: 20px;
+}
+
+.container .center .header {
+  display: block;
+  position: absolute;
+  height: 90px;
+  width: 400px;
+  background: #ebb063;
+  -webkit-box-shadow: 0 2px 13px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 13px 0px rgba(0, 0, 0, 0.2);
+}
+
+.container .center .header .week {
+  font-size: 17px;
+  position: absolute;
+  top: 1.5rem;
+  left: 1rem;
+  color: #fff;
+}
+
+.container .center .header .date {
+  position: absolute;
+  top: 3rem;
+  left: 2rem;
+  font-size: 15px;
+  color: #fff;
+}
+
+.container .center .header .revenue {
+  font-size: 17px;
+  position: absolute;
+  left: 17rem;
+  top: 1.5rem;
+  color: #fff;
+}
+
+.container .center .header .money {
+  font-size: 15px;
+  position: absolute;
+  left: 17rem;
+  top: 3rem;
+  color: #fff;
+}
+
+.container .center .index {
+  position: absolute;
+  top: 5rem;
+  float: left;
+  left: -10px;
+}
+
+.container .center .index .red-line {
+  position: absolute;
+  top: 1.2rem;
+  left: 13rem;
+  height: 5px;
+  width: 25px;
+  border-radius: 20px;
+  background: #ff2525;
+}
+
+.container .center .index .views {
+  font-size: 13px;
+  position: absolute;
+  left: 14.7rem;
+  top: -0.1rem;
+}
+
+.container .center .index .blue-line {
+  position: absolute;
+  top: 1.2rem;
+  left: 19rem;
+  height: 5px;
+  width: 25px;
+  border-radius: 20px;
+  background: #2596ff;
+}
+
+.container .center .index .purchase {
+  font-size: 13px;
+  position: absolute;
+  left: 20.7rem;
+  top: -0.1rem;
+}
+
+.container .center .line-1 {
+  position: absolute;
+  top: 8rem;
+  left: 25px;
+  border-radius: 20px;
+  height: 3px;
+  width: 350px;
+  background: rgba(230, 230, 230, 0.774);
+}
+
+.container .center .line-2 {
+  position: absolute;
+  top: 11.5rem;
+  left: 25px;
+  border-radius: 20px;
+  height: 3px;
+  width: 350px;
+  background: rgba(230, 230, 230, 0.774);
+}
+
+.container .center .line-3 {
+  position: absolute;
+  top: 15rem;
+  left: 25px;
+  border-radius: 20px;
+  height: 3px;
+  width: 350px;
+  background: rgba(230, 230, 230, 0.774);
+}
+
+.container .center .data-red {
+  position: relative;
+  top: 7.5rem;
+  left: 13px;
+}
+
+.container .center .data-blue {
+  position: relative;
+  top: 6.5rem;
+  left: 13px;
+}
+
+.container .center .dataR .point .point1 {
+  width: 9px;
+  height: 9px;
+  border-radius: 8px;
+  background: #ff2525;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 3rem;
+  z-index: 10;
+}
+
+.container .center .dataR .point .point1:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+
+.container .center .dataR .point .point2 {
+  width: 9px;
+  height: 9px;
+  border-radius: 8px;
+  background: #ff2525;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0.7rem;
+  left: 4rem;
+  z-index: 10;
+}
+
+.container .center .dataR .point .point2:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+
+.container .center .dataR .point .point3 {
+  width: 9px;
+  height: 9px;
+  border-radius: 8px;
+  background: #ff2525;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 3.5rem;
+  left: 7.78rem;
+  z-index: 10;
+}
+
+.container .center .dataR .point .point3:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+
+.container .center .dataR .point .point4 {
+  width: 9px;
+  height: 9px;
+  border-radius: 8px;
+  background: #ff2525;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 2.2rem;
+  left: 9.9rem;
+  z-index: 10;
+}
+
+.container .center .dataR .point .point4:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+
+.container .center .dataR .point .point5 {
+  width: 9px;
+  height: 9px;
+  border-radius: 8px;
+  background: #ff2525;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 4rem;
+  left: 13.9rem;
+  z-index: 10;
+}
+
+.container .center .dataR .point .point5:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+
+.container .center .dataR .point .point6 {
+  z-index: 10;
+  width: 9px;
+  height: 9px;
+  border-radius: 8px;
+  background: #ff2525;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 3rem;
+  left: 16.4rem;
+}
+
+.container .center .dataR .point .point6:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+
+.container .center .dataR .point .point7 {
+  z-index: 10;
+  width: 9px;
+  height: 9px;
+  border-radius: 8px;
+  background: #ff2525;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 1.5rem;
+  left: 18.5rem;
+}
+
+.container .center .dataR .point .point7:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+
+.container .center .dataR .point .point8 {
+  width: 9px;
+  height: 9px;
+  border-radius: 8px;
+  background: #ff2525;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 4.5rem;
+  left: 20.6rem;
+  z-index: 10;
+}
+
+.container .center .dataR .point .point8:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+
+.container .center .dataR .point .point9 {
+  width: 9px;
+  height: 9px;
+  border-radius: 8px;
+  background: #ff2525;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0rem;
+  left: 23rem;
+  z-index: 10;
+}
+
+.container .center .dataR .point .point9:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+
+.container .center .dataR .point .tooltip {
+  position: absolute;
+  bottom: 13px;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, 10px, 0);
+          transform: translate3d(-50%, 10px, 0);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 11px;
+  color: #fff;
+  background: #ff2525;
+  padding: 8px 6px;
+  border-radius: 3px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease-out 0s, -webkit-transform 0.4s ease-out 0s;
+  transition: opacity 0.4s ease-out 0s, -webkit-transform 0.4s ease-out 0s;
+  transition: transform 0.4s ease-out 0s, opacity 0.4s ease-out 0s;
+  transition: transform 0.4s ease-out 0s, opacity 0.4s ease-out 0s, -webkit-transform 0.4s ease-out 0s;
+}
+
+.container .center .dataB .point .point1 {
+  width: 9px;
+  height: 9px;
+  border-radius: 8px;
+  background: #2596ff;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 2.3rem;
+  z-index: 10;
+}
+
+.container .center .dataB .point .point1:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+
+.container .center .dataB .point .point2 {
+  width: 9px;
+  height: 9px;
+  border-radius: 8px;
+  background: #2596ff;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0.6rem;
+  left: 4.2rem;
+  z-index: 10;
+}
+
+.container .center .dataB .point .point2:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+
+.container .center .dataB .point .point3 {
+  width: 9px;
+  height: 9px;
+  border-radius: 8px;
+  background: #2596ff;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0.9rem;
+  left: 7.5rem;
+  z-index: 10;
+}
+
+.container .center .dataB .point .point3:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+
+.container .center .dataB .point .point4 {
+  width: 9px;
+  height: 9px;
+  border-radius: 8px;
+  background: #2596ff;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0rem;
+  left: 9.5rem;
+  z-index: 10;
+}
+
+.container .center .dataB .point .point4:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+
+.container .center .dataB .point .point5 {
+  width: 9px;
+  height: 9px;
+  border-radius: 8px;
+  background: #2596ff;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 2.3rem;
+  left: 13rem;
+  z-index: 10;
+}
+
+.container .center .dataB .point .point5:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+
+.container .center .dataB .point .point6 {
+  z-index: 10;
+  width: 9px;
+  height: 9px;
+  border-radius: 8px;
+  background: #2596ff;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 1.7rem;
+  left: 13.7rem;
+}
+
+.container .center .dataB .point .point6:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+
+.container .center .dataB .point .point7 {
+  z-index: 10;
+  width: 9px;
+  height: 9px;
+  border-radius: 8px;
+  background: #2596ff;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0rem;
+  left: 16.2rem;
+}
+
+.container .center .dataB .point .point7:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+
+.container .center .dataB .point .point8 {
+  width: 9px;
+  height: 9px;
+  border-radius: 8px;
+  background: #2596ff;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 3rem;
+  left: 18.4rem;
+  z-index: 10;
+}
+
+.container .center .dataB .point .point8:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+
+.container .center .dataB .point .point9 {
+  width: 9px;
+  height: 9px;
+  border-radius: 8px;
+  background: #2596ff;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 1rem;
+  left: 19.3rem;
+  z-index: 10;
+}
+
+.container .center .dataB .point .point9:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+
+.container .center .dataB .point .point10 {
+  width: 9px;
+  height: 9px;
+  border-radius: 8px;
+  background: #2596ff;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 2.2rem;
+  left: 14.6rem;
+  z-index: 10;
+}
+
+.container .center .dataB .point .point10:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+
+.container .center .dataB .point .point11 {
+  width: 9px;
+  height: 9px;
+  border-radius: 8px;
+  background: #2596ff;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 2.1rem;
+  left: 21.9rem;
+  z-index: 10;
+}
+
+.container .center .dataB .point .point11:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+
+.container .center .dataB .point .point12 {
+  width: 9px;
+  height: 9px;
+  border-radius: 8px;
+  background: #2596ff;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 1.55rem;
+  left: 23rem;
+  z-index: 10;
+}
+
+.container .center .dataB .point .point12:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translate3d(-50%, 0, 0);
+          transform: translate3d(-50%, 0, 0);
+}
+
+.container .center .dataB .point .tooltip {
+  position: absolute;
+  bottom: 13px;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, 10px, 0);
+          transform: translate3d(-50%, 10px, 0);
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 11px;
+  color: #fff;
+  background: #2596ff;
+  padding: 8px 6px;
+  border-radius: 3px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease-out 0s, -webkit-transform 0.4s ease-out 0s;
+  transition: opacity 0.4s ease-out 0s, -webkit-transform 0.4s ease-out 0s;
+  transition: transform 0.4s ease-out 0s, opacity 0.4s ease-out 0s;
+  transition: transform 0.4s ease-out 0s, opacity 0.4s ease-out 0s, -webkit-transform 0.4s ease-out 0s;
+}
+
+.container .center .week {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 6rem;
+  list-style: none;
+  padding-left: 16px;
+}
+
+.container .center .week li {
+  font-size: 15px;
+  padding: 11px;
+}
+/*# sourceMappingURL=style.css.map */

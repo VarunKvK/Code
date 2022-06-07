@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.frame{
+    font-family: 'Open Sans', sans-serif;
+    height:400px;
+    width: 400px;
+    background: rgb(52, 59, 116);
+    top:20%;
+    left:35%;
+    position: absolute;
+    translate: transform(-50%,-50%);
+    box-shadow: 0 2px 10px 3px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    overflow:hidden;
+    .moon{
+        position: absolute;
+        height: 90px;
+        width: 90px;
+        border-radius:90px;
+        background:#fff;
+        margin: 30px;
+        box-shadow: 0 0 10px 0 #fff;
+        overflow: hidden;
+        animation: moon 2s ease-in-out;
+
+        .c1{
+            position:absolute;
+            padding: 5px;
+            border-radius:20px;
+            background:rgb(228, 228, 228);
+            top: 70px;
+            left:30px;
+        }
+
+        .c2{
+            @extend .c1;
+            left:50px;
+            top:40px;
+            padding:9px;
+        }
+
+        .c3{
+            @extend .c2;
+            left:10px;
+            top:30px;
+            padding:4px;
+        }
+
+        .c4{
+            @extend .c3;
+            left:50px;
+            top:20px;
+            padding:5px;
+        }
+
+        .c5{
+            @extend .c4;
+            left:80px;
+            top:50px;
+            padding:9px;
+        }
+
+        .c6{
+            @extend .c5;
+            left:1px;
+            top:5px;
+            padding:10px;
+        }
+
+        .c7{
+            @extend .c6;
+            left:1px;
+            top:50px;
+            padding:10px;
+        }
+    }
+
+    .mountain{
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        .mountain-1{
+            height: 400px;
+            width: 400px;
+            border-radius: 600px;
+            position: absolute;
+            top:14rem;
+            left: -10rem;
+            z-index: 2;
+            background: rgb(33, 39, 83);
+            animation: mountain 2s ease-in-out;
+        }
+
+        .mountain-2{
+            @extend .mountain-1;
+            left:1rem;
+            top:12rem;
+        }
+
+        .mountain-3{
+            @extend .mountain-2;
+            left:10rem;
+            top:16rem;
+        }
+
+        .mountain-4{
+            @extend .mountain-3;
+            z-index: 1;
+            background:rgb(26, 31, 68);
+            left:10rem;
+            top:10rem;
+        }
+
+        .mountain-5{
+            @extend .mountain-4;
+            left:-10rem;
+        }
+    }
+
+    .rain{
+        position:absolute;
+        top: 20px;
+        .rain1{
+            z-index: 10;
+            border-radius: 20px;
+            height: 8px;
+            width:8px;
+            left:3px;
+            animation: drop (0.7 + random(2) / 10) + s linear (random(50) / 25) + s infinite;
+            background: rgb(110, 169, 245);
+            bottom: -17.4rem;
+            position:absolute;
+            animation-fill-mode: both;
+		    transform-origin: 50% 100%;
+            
+            &:before {
+                position: absolute;
+                content: '';
+                display: block;
+                top: -2px;
+                left: 1px;
+                width: 6px;
+                height: 6px;
+                background:rgb(110, 169, 245);
+                border-radius: 3px;
+            }
+    
+            &:after {
+                position: absolute;
+                content: '';
+                display: block;
+                top: -5px;
+                left: 2px;
+                width: 4px;
+                height: 10px;
+                background: rgb(110, 169, 245);
+                border-radius: 50%;
+            }
+        }
+
+        .rain2{
+            @extend .rain1;
+            left:20px;
+        }
+
+        .rain3{
+            @extend .rain2;
+            left:35px;
+        }
+
+        .rain4{
+            @extend .rain3;
+            left:50px;
+        }
+
+        .rain5{
+            @extend .rain4;
+            left:65px;
+        }
+
+        .rain6{
+            @extend .rain5;
+            left: 85px;
+        }
+
+        .rain7{
+            @extend .rain6;
+            left: 105px;
+        }
+
+        .rain8{
+            @extend .rain7;
+            left:125px;
+        }
+
+        .rain9{
+            @extend .rain8;
+            left:145px;
+        }
+
+        .rain10{
+            @extend .rain9;
+            left:165px;
+        }
+    }
+    .climate{
+        height:100px;
+        width:400px;
+        z-index: 10;
+        background:#fff;
+        display:flex;
+        position: relative;
+        top:300px;
+        border-radius: 0px 0px 20px 20px;
+
+        .temperature{
+            font-weight: 100;
+            font-size:40px;
+            text-align:center;
+            position:relative;
+            top:-1.7rem;
+            left:15px;
+
+            .degree{
+                position:relative;
+                top:-1rem;
+                font-size:20px;
+            }
+        }
+
+        .climate-1{
+
+            .wind{
+                font-size: 20px;
+                position:relative;
+                top:0rem;
+                left:2rem;
+                font-weight:200;
+            }
+
+            .humidity{
+                font-size: 20px;
+                font-weight:200;
+                position:relative;
+                top:0rem;
+                left:2rem;
+            }
+        }
+
+        .climate-2{
+
+            .day1{
+                font-size: 20px;
+                position:absolute;
+                top:0rem;
+                float: right;
+                right:3rem;
+                font-weight:200;
+                text-transform: uppercase;
+            }
+            
+            .day2{
+                font-weight:200;
+                font-size: 20px;
+                position:absolute;
+                top:2.7rem;
+                float: right;
+                right:3rem;
+                text-transform: uppercase;
+            }
+        }
+
+    }
+}
+
+@keyframes moon{
+    from{
+        transform:translate(-40px,200px) rotate(360deg);
+    }
+
+    to{
+        transform:translate(0px,0px) rotate(0deg);
+    }
+}
+
+@keyframes drop{
+    0%{
+        transform:translate3d(10px,-320px,0) scaleX(1) scaleY(1) rotate(20deg);
+    }
+
+    85%{
+        transform:translate3d(0px,0px,0) scaleX(1) scaleY(1) rotate(17deg);
+    }
+    100%{
+        transform:translate3d(0,0,0) scaleX(3) scaleY(0) rotate(0deg);
+    }
+}

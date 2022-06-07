@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.frame {
+  font-family: 'Open Sans', sans-serif;
+  height: 400px;
+  width: 400px;
+  background: #343b74;
+  top: 20%;
+  left: 35%;
+  position: absolute;
+  translate: transform(-50%, -50%);
+  -webkit-box-shadow: 0 2px 10px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 10px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.frame .moon {
+  position: absolute;
+  height: 90px;
+  width: 90px;
+  border-radius: 90px;
+  background: #fff;
+  margin: 30px;
+  -webkit-box-shadow: 0 0 10px 0 #fff;
+          box-shadow: 0 0 10px 0 #fff;
+  overflow: hidden;
+  -webkit-animation: moon 2s ease-in-out;
+          animation: moon 2s ease-in-out;
+}
+
+.frame .moon .c1, .frame .moon .c2, .frame .moon .c3, .frame .moon .c4, .frame .moon .c5, .frame .moon .c6, .frame .moon .c7 {
+  position: absolute;
+  padding: 5px;
+  border-radius: 20px;
+  background: #e4e4e4;
+  top: 70px;
+  left: 30px;
+}
+
+.frame .moon .c2, .frame .moon .c3, .frame .moon .c4, .frame .moon .c5, .frame .moon .c6, .frame .moon .c7 {
+  left: 50px;
+  top: 40px;
+  padding: 9px;
+}
+
+.frame .moon .c3, .frame .moon .c4, .frame .moon .c5, .frame .moon .c6, .frame .moon .c7 {
+  left: 10px;
+  top: 30px;
+  padding: 4px;
+}
+
+.frame .moon .c4, .frame .moon .c5, .frame .moon .c6, .frame .moon .c7 {
+  left: 50px;
+  top: 20px;
+  padding: 5px;
+}
+
+.frame .moon .c5, .frame .moon .c6, .frame .moon .c7 {
+  left: 80px;
+  top: 50px;
+  padding: 9px;
+}
+
+.frame .moon .c6, .frame .moon .c7 {
+  left: 1px;
+  top: 5px;
+  padding: 10px;
+}
+
+.frame .moon .c7 {
+  left: 1px;
+  top: 50px;
+  padding: 10px;
+}
+
+.frame .mountain {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+}
+
+.frame .mountain .mountain-1, .frame .mountain .mountain-2, .frame .mountain .mountain-3, .frame .mountain .mountain-4, .frame .mountain .mountain-5 {
+  height: 400px;
+  width: 400px;
+  border-radius: 600px;
+  position: absolute;
+  top: 14rem;
+  left: -10rem;
+  z-index: 2;
+  background: #212753;
+  -webkit-animation: mountain 2s ease-in-out;
+          animation: mountain 2s ease-in-out;
+}
+
+.frame .mountain .mountain-2, .frame .mountain .mountain-3, .frame .mountain .mountain-4, .frame .mountain .mountain-5 {
+  left: 1rem;
+  top: 12rem;
+}
+
+.frame .mountain .mountain-3, .frame .mountain .mountain-4, .frame .mountain .mountain-5 {
+  left: 10rem;
+  top: 16rem;
+}
+
+.frame .mountain .mountain-4, .frame .mountain .mountain-5 {
+  z-index: 1;
+  background: #1a1f44;
+  left: 10rem;
+  top: 10rem;
+}
+
+.frame .mountain .mountain-5 {
+  left: -10rem;
+}
+
+.frame .rain {
+  position: absolute;
+  top: 20px;
+}
+
+.frame .rain .rain1, .frame .rain .rain2, .frame .rain .rain3, .frame .rain .rain4, .frame .rain .rain5, .frame .rain .rain6, .frame .rain .rain7, .frame .rain .rain8, .frame .rain .rain9, .frame .rain .rain10 {
+  z-index: 10;
+  border-radius: 20px;
+  height: 8px;
+  width: 8px;
+  left: 3px;
+  -webkit-animation: drop 0.9s linear 0.4s infinite;
+          animation: drop 0.9s linear 0.4s infinite;
+  background: #6ea9f5;
+  bottom: -17.4rem;
+  position: absolute;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-transform-origin: 50% 100%;
+          transform-origin: 50% 100%;
+}
+
+.frame .rain .rain1:before, .frame .rain .rain2:before, .frame .rain .rain3:before, .frame .rain .rain4:before, .frame .rain .rain5:before, .frame .rain .rain6:before, .frame .rain .rain7:before, .frame .rain .rain8:before, .frame .rain .rain9:before, .frame .rain .rain10:before {
+  position: absolute;
+  content: '';
+  display: block;
+  top: -2px;
+  left: 1px;
+  width: 6px;
+  height: 6px;
+  background: #6ea9f5;
+  border-radius: 3px;
+}
+
+.frame .rain .rain1:after, .frame .rain .rain2:after, .frame .rain .rain3:after, .frame .rain .rain4:after, .frame .rain .rain5:after, .frame .rain .rain6:after, .frame .rain .rain7:after, .frame .rain .rain8:after, .frame .rain .rain9:after, .frame .rain .rain10:after {
+  position: absolute;
+  content: '';
+  display: block;
+  top: -5px;
+  left: 2px;
+  width: 4px;
+  height: 10px;
+  background: #6ea9f5;
+  border-radius: 50%;
+}
+
+.frame .rain .rain2, .frame .rain .rain3, .frame .rain .rain4, .frame .rain .rain5, .frame .rain .rain6, .frame .rain .rain7, .frame .rain .rain8, .frame .rain .rain9, .frame .rain .rain10 {
+  left: 20px;
+}
+
+.frame .rain .rain3, .frame .rain .rain4, .frame .rain .rain5, .frame .rain .rain6, .frame .rain .rain7, .frame .rain .rain8, .frame .rain .rain9, .frame .rain .rain10 {
+  left: 35px;
+}
+
+.frame .rain .rain4, .frame .rain .rain5, .frame .rain .rain6, .frame .rain .rain7, .frame .rain .rain8, .frame .rain .rain9, .frame .rain .rain10 {
+  left: 50px;
+}
+
+.frame .rain .rain5, .frame .rain .rain6, .frame .rain .rain7, .frame .rain .rain8, .frame .rain .rain9, .frame .rain .rain10 {
+  left: 65px;
+}
+
+.frame .rain .rain6, .frame .rain .rain7, .frame .rain .rain8, .frame .rain .rain9, .frame .rain .rain10 {
+  left: 85px;
+}
+
+.frame .rain .rain7, .frame .rain .rain8, .frame .rain .rain9, .frame .rain .rain10 {
+  left: 105px;
+}
+
+.frame .rain .rain8, .frame .rain .rain9, .frame .rain .rain10 {
+  left: 125px;
+}
+
+.frame .rain .rain9, .frame .rain .rain10 {
+  left: 145px;
+}
+
+.frame .rain .rain10 {
+  left: 165px;
+}
+
+.frame .climate {
+  height: 100px;
+  width: 400px;
+  z-index: 10;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 300px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.frame .climate .temperature {
+  font-weight: 100;
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  top: -1.7rem;
+  left: 15px;
+}
+
+.frame .climate .temperature .degree {
+  position: relative;
+  top: -1rem;
+  font-size: 20px;
+}
+
+.frame .climate .climate-1 .wind {
+  font-size: 20px;
+  position: relative;
+  top: 0rem;
+  left: 2rem;
+  font-weight: 200;
+}
+
+.frame .climate .climate-1 .humidity {
+  font-size: 20px;
+  font-weight: 200;
+  position: relative;
+  top: 0rem;
+  left: 2rem;
+}
+
+.frame .climate .climate-2 .day1 {
+  font-size: 20px;
+  position: absolute;
+  top: 0rem;
+  float: right;
+  right: 3rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.frame .climate .climate-2 .day2 {
+  font-weight: 200;
+  font-size: 20px;
+  position: absolute;
+  top: 2.7rem;
+  float: right;
+  right: 3rem;
+  text-transform: uppercase;
+}
+
+@-webkit-keyframes moon {
+  from {
+    -webkit-transform: translate(-40px, 200px) rotate(360deg);
+            transform: translate(-40px, 200px) rotate(360deg);
+  }
+  to {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+            transform: translate(0px, 0px) rotate(0deg);
+  }
+}
+
+@keyframes moon {
+  from {
+    -webkit-transform: translate(-40px, 200px) rotate(360deg);
+            transform: translate(-40px, 200px) rotate(360deg);
+  }
+  to {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+            transform: translate(0px, 0px) rotate(0deg);
+  }
+}
+
+@-webkit-keyframes drop {
+  0% {
+    -webkit-transform: translate3d(10px, -320px, 0) scaleX(1) scaleY(1) rotate(20deg);
+            transform: translate3d(10px, -320px, 0) scaleX(1) scaleY(1) rotate(20deg);
+  }
+  85% {
+    -webkit-transform: translate3d(0px, 0px, 0) scaleX(1) scaleY(1) rotate(17deg);
+            transform: translate3d(0px, 0px, 0) scaleX(1) scaleY(1) rotate(17deg);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0) scaleX(3) scaleY(0) rotate(0deg);
+            transform: translate3d(0, 0, 0) scaleX(3) scaleY(0) rotate(0deg);
+  }
+}
+
+@keyframes drop {
+  0% {
+    -webkit-transform: translate3d(10px, -320px, 0) scaleX(1) scaleY(1) rotate(20deg);
+            transform: translate3d(10px, -320px, 0) scaleX(1) scaleY(1) rotate(20deg);
+  }
+  85% {
+    -webkit-transform: translate3d(0px, 0px, 0) scaleX(1) scaleY(1) rotate(17deg);
+            transform: translate3d(0px, 0px, 0) scaleX(1) scaleY(1) rotate(17deg);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0) scaleX(3) scaleY(0) rotate(0deg);
+            transform: translate3d(0, 0, 0) scaleX(3) scaleY(0) rotate(0deg);
+  }
+}
+/*# sourceMappingURL=style.css.map */

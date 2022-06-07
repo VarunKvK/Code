@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+body{
+    min-height: 300vh;
+    position: relative;
+    perspective: 300px;
+}
+
+.firstpage{
+    min-height: 100vh;
+    background: rgb(0, 0, 0);
+    @include align();
+    h1{
+        color:#fff;
+        font-family: 'Gotham';
+        font-size: 5rem;
+    }
+}
+
+.secondpage{
+    min-height: 100vh;
+    background: rgb(255, 0, 0);
+    @include align();
+    .front{
+
+    }
+}

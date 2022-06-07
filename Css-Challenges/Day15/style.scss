@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .slider1{
+        position: relative;
+        height: 20rem;
+        width: 7rem;
+        transition: all 0.5s ease-in-out;
+        .girl{
+            object-fit: cover;
+            position: relative;
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+        }
+        .circle1{
+            height: 4rem;
+            width: 4rem;
+            background-color: rgb(255, 255, 255);
+            position: relative;
+            top:-5rem;
+            left:2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5rem;
+            .camera{
+                width:2rem;
+                position: relative;
+            }
+        }
+    }
+    .slider1.active{
+        width: 30rem;
+    }
+
+    .slider2{
+        position: relative;
+        height: 20rem;
+        width: 7rem;
+        transition: all 0.5s ease-in-out;
+        .mountains{
+            object-fit: cover;
+            position: relative;
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+        }
+        .circle2{
+            height: 4rem;
+            width: 4rem;
+            background-color: rgb(255, 255, 255);
+            position: relative;
+            top:-5rem;
+            left:2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5rem;
+            .mountain{
+                width:2rem;
+                position: relative;
+            }
+        }
+    }
+    .slider2.active{
+        width: 30rem;
+    }
+
+    .slider3{
+        position: relative;
+        height: 20rem;
+        width: 7rem;
+        transition: all 0.5s ease-in-out;
+        .beachs{
+            object-fit: cover;
+            position: relative;
+            height: 100%;
+            width: 100%;
+            border-radius: 20px;
+        }
+        .circle3{
+            height: 4rem;
+            width: 4rem;
+            background-color: rgb(255, 255, 255);
+            position: relative;
+            top:-5rem;
+            left:2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5rem;
+            .beach{
+                width:2rem;
+                position: relative;
+            }
+        }
+    }
+    .slider3.active{
+        width: 30rem;
+    }
+}

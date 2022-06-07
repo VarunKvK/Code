@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap");
+.frame {
+  font-family: 'Shippori Antique B1', sans-serif;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #3a3a3a;
+  border-radius: 10px;
+  height: 500px;
+  width: 500px;
+  -webkit-box-shadow: 0 0 14px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 14px rgba(0, 0, 0, 0.2);
+}
+
+.frame .outline {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  border: 10px solid #4e4e4e;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.frame .outline .animated-outline {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  border: 6px solid #d34b4b;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-animation: ring 5s ease-in-out infinite;
+          animation: ring 5s ease-in-out infinite;
+}
+
+.frame .outline .dots {
+  position: absolute;
+  height: 220px;
+  width: 220px;
+  border: 3px dotted #ffebeb;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.frame .outline .dots .watch {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -40%);
+          transform: translate(-50%, -40%);
+  height: 220px;
+  width: 220px;
+}
+
+.frame .outline .dots .watch .day {
+  color: #fff;
+  font-size: 10px;
+  position: relative;
+  top: 2rem;
+  left: 3.7rem;
+}
+
+.frame .outline .dots .watch .time {
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  top: 2rem;
+  left: 1.5rem;
+}
+
+.frame .outline .dots .watch .box-animated {
+  height: 10px;
+  width: 10px;
+  border: 2px solid #d34b4b;
+  border-radius: 2px;
+  position: relative;
+  top: 5.5rem;
+  left: 3.5rem;
+  -webkit-animation: box .9s ease-in-out  infinite;
+          animation: box .9s ease-in-out  infinite;
+}
+
+.frame .outline .dots .watch .steps {
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+  top: 3.7rem;
+  left: 4.7rem;
+}
+
+.frame .outline .dots .watch .calories {
+  color: #fff;
+  font-size: 15px;
+  position: absolute;
+  top: 6.4rem;
+  left: 6.7rem;
+}
+
+@-webkit-keyframes box {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  35% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@keyframes box {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  35% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@-webkit-keyframes ring {
+  0% {
+    background: #c7b657;
+  }
+  30% {
+    background: #68c751;
+  }
+  40% {
+    background: #ff8df9;
+  }
+  60% {
+    background: #57abb1;
+  }
+  100% {
+    background: #c7b657;
+  }
+}
+
+@keyframes ring {
+  0% {
+    background: #c7b657;
+  }
+  30% {
+    background: #68c751;
+  }
+  40% {
+    background: #ff8df9;
+  }
+  60% {
+    background: #57abb1;
+  }
+  100% {
+    background: #c7b657;
+  }
+}
+/*# sourceMappingURL=style.css.map */

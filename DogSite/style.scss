@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: auto;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+
+    .firstpage {
+        height: 100vh;
+
+        .header {
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            top: 2vh;
+            align-items: center;
+
+            .header-menu {
+                position: relative;
+                align-items: center;
+                justify-content: space-around;
+                height: 5vh;
+                width: 5vh;
+                position: relative;
+                top: 1rem;
+                cursor: pointer;
+
+                .line1 {
+                    position: relative;
+                    top: .3rem;
+                    height: .5vh;
+                    width: 5vh;
+                    background-color: #4D67D5;
+                    border-radius: 2vh;
+                }
+
+                .line2 {
+                    position: relative;
+                    top: .7rem;
+                    height: .5vh;
+                    width: 5vh;
+                    background-color: #000;
+                    border-radius: 2vh;
+                }
+
+                .line3 {
+                    position: relative;
+                    top: 1.1rem;
+                    height: .5vh;
+                    width: 5vh;
+                    background-color: #FFD231;
+                    border-radius: 2vh;
+                }
+            }
+
+            .header-logo {
+                display: flex;
+                position: relative;
+                left: 18rem;
+                cursor: pointer;
+
+                .petname {
+                    position: relative;
+                    top: 1.2rem;
+                    left: .5rem;
+                    font-weight: 400;
+
+                    span {
+                        color: #4D67D5;
+                    }
+                }
+            }
+
+            .header-searchbar {
+                height: 5vh;
+                width: 17vh;
+                cursor: pointer;
+                display: flex;
+                border: solid 2.5px #4D67D5;
+                border-radius: 10rem;
+                align-items: center;
+                left: -30rem;
+                top: .9rem;
+                position: relative;
+                transition: all 0.5s ease-in-out;
+
+                .searchlogo {
+                    position: relative;
+                    left: .3rem;
+                    top: .1rem;
+                }
+
+                .searchtext {
+                    font-weight: 400;
+                    font-size: 1rem;
+                    position: relative;
+                    left: .7rem;
+                }
+            }
+
+            .header-searchbars {
+                width: 25vh;
+                transition: all 0.5s ease-in-out;
+            }
+
+            .header-shop {
+                position: relative;
+                left: 11rem;
+                top: 1rem;
+                cursor: pointer;
+            }
+
+            .header-user {
+                position: relative;
+                left: 2rem;
+                top: 1rem;
+                cursor: pointer;
+            }
+        }
+
+        .contentdog {
+            position: absolute;
+            width: 100%;
+
+            .textcontent {
+                position: absolute;
+                transform: translate(-50%, -50%);
+                top: 55%;
+                left: 50%;
+                z-index: -2;
+
+                .hitext {
+                    position: relative;
+                    left: 10rem;
+                    top: -9rem;
+                    font-size: 25rem;
+                    font-weight: 300;
+                    color: #FFD231;
+                }
+
+                .needtext {
+                    color: #4D67D5;
+                    position: absolute;
+                    left: 12rem;
+                    top: 18rem;
+                    width: 20rem;
+                    font-size: 2rem;
+                }
+            }
+
+            .dogimage {
+                position: relative;
+                left: 10rem;
+                width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: -2;
+            }
+
+            .pawimage {
+                z-index: -2;
+                position: absolute;
+                top: 0;
+            }
+        }
+    }
+
+    .blur {
+        height: 2rem;
+        width: 100%;
+        background-color: #FFD231;
+        filter: blur(5px);
+        position: absolute;
+        z-index: 2;
+    }
+
+    .secondpage {
+        min-height: 100vh;
+        background-color: #FFD231;
+
+        .featureproducts {
+            position: relative;
+            top: 3.5rem;
+            left: 3rem;
+
+            .featuretext {
+                font-size: 2rem;
+                font-weight: 400;
+
+                span {
+                    color: #4D67D5;
+                }
+            }
+
+            .divideproducts {
+                height: .1rem;
+                width: 78rem;
+                border-radius: 10px;
+                background: #fff;
+                position: relative;
+            }
+        }
+
+        .products {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            position: relative;
+            top: 5rem;
+            z-index: 0;
+            .productdiv {
+                height: 28rem;
+                width: 22rem;
+                background-color: #fff;
+                border-radius: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .images {
+                    position: relative;
+                    top: -3.5rem;
+                    border-radius: 5px;
+                    height: 18rem;
+                    width: 19rem;
+                }
+            }
+        }
+        .productstext{
+            display: flex;
+            position: relative;
+            z-index: 2;
+            justify-content: space-around;
+            .textstyle{
+                font-size: 1.5rem;
+                position: relative;
+                top:-3rem;
+                left:-2.6rem;
+            }
+            .coststyle{
+                font-size: 1.2rem;
+                left: -2.6rem;
+                top:-2.5rem;
+                position: relative;
+                color: #4D67D5;
+            }
+            .rupeestyle{
+                font-size: 1rem;
+                left: 0rem;
+                top:-4.1rem;
+                position: relative;
+                color: #FFD231;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,193 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.u1 {
+  height: 25rem;
+  width: 400rem;
+  background: #ffda95;
+}
+
+.u2 {
+  height: 18.5rem;
+  width: 400rem;
+  background: #8d6b38;
+}
+
+.man {
+  -webkit-animation: man .8s ease-out 1s;
+          animation: man .8s ease-out 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.man .leg1 {
+  position: absolute;
+  top: 150px;
+  left: 600px;
+  width: 151px;
+  height: 245px;
+  -webkit-transform-origin: 50% 0;
+          transform-origin: 50% 0;
+  -webkit-animation: leg1 2s linear infinite;
+          animation: leg1 2s linear infinite;
+}
+
+.man .leg1 .shoe {
+  position: absolute;
+  width: 151px;
+  bottom: 0px;
+  height: 128px;
+  -webkit-animation: shoe1 2s ease-in-out infinite;
+          animation: shoe1 2s ease-in-out infinite;
+  background: url("https://100dayscss.com/codepen/doc-martens.svg") center center no-repeat;
+}
+
+.man .leg2 {
+  position: absolute;
+  top: 155px;
+  left: 550px;
+  width: 151px;
+  height: 245px;
+  -webkit-transform-origin: 50% 0;
+          transform-origin: 50% 0;
+  -webkit-animation: leg2 2s linear infinite;
+          animation: leg2 2s linear infinite;
+}
+
+.man .leg2 .shoe {
+  position: absolute;
+  -webkit-animation: shoe2 2s ease-in-out infinite;
+          animation: shoe2 2s ease-in-out infinite;
+  width: 151px;
+  bottom: 0px;
+  height: 128px;
+  background: url("https://100dayscss.com/codepen/doc-martens.svg") center center no-repeat;
+}
+
+@-webkit-keyframes leg1 {
+  0% {
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+  50% {
+    -webkit-transform: rotate(40deg);
+            transform: rotate(40deg);
+  }
+  100% {
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+}
+
+@keyframes leg1 {
+  0% {
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+  50% {
+    -webkit-transform: rotate(40deg);
+            transform: rotate(40deg);
+  }
+  100% {
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+}
+
+@-webkit-keyframes leg2 {
+  0% {
+    -webkit-transform: rotate(50deg);
+            transform: rotate(50deg);
+  }
+  50% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  100% {
+    -webkit-transform: rotate(50deg);
+            transform: rotate(50deg);
+  }
+}
+
+@keyframes leg2 {
+  0% {
+    -webkit-transform: rotate(50deg);
+            transform: rotate(50deg);
+  }
+  50% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  100% {
+    -webkit-transform: rotate(50deg);
+            transform: rotate(50deg);
+  }
+}
+
+@-webkit-keyframes shoe1 {
+  0%, 100% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  50% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+}
+
+@keyframes shoe1 {
+  0%, 100% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  50% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+}
+
+@-webkit-keyframes shoe2 {
+  0%, 100% {
+    -webkit-transform: rotate(10deg) translateY(-5px) translateX(10px);
+            transform: rotate(10deg) translateY(-5px) translateX(10px);
+  }
+  50% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+}
+
+@keyframes shoe2 {
+  0%, 100% {
+    -webkit-transform: rotate(10deg) translateY(-5px) translateX(10px);
+            transform: rotate(10deg) translateY(-5px) translateX(10px);
+  }
+  50% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+}
+
+@-webkit-keyframes man {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes man {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */

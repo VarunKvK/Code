@@ -1,0 +1,123 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+body .clock {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 20rem;
+  background: #6387ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 4px 0px 20px #0027a7, inset 4px 0px 20px #2255fc;
+          box-shadow: 4px 0px 20px #0027a7, inset 4px 0px 20px #2255fc;
+}
+
+body .clock .hourhand {
+  height: 6rem;
+  width: .3rem;
+  background: #f7ae26;
+  position: absolute;
+  top: 14.6rem;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  -webkit-box-shadow: 2px 0px 20px #f7ae26;
+          box-shadow: 2px 0px 20px #f7ae26;
+  border-radius: 7rem;
+}
+
+body .clock .secondhand {
+  height: 8rem;
+  width: .3rem;
+  background: #ffc400;
+  position: absolute;
+  top: 12.6rem;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  border-radius: 7rem;
+  -webkit-box-shadow: 2px 0px 20px #ffc400;
+          box-shadow: 2px 0px 20px #ffc400;
+}
+
+body .clock .minutehand {
+  -webkit-box-shadow: 2px 0px 20px #ffe880;
+          box-shadow: 2px 0px 20px #ffe880;
+  height: 7rem;
+  width: .3rem;
+  background: #ffe880;
+  position: absolute;
+  top: 13.6rem;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  border-radius: 7rem;
+}
+
+body .clock .circle1 {
+  z-index: 2;
+  height: .5rem;
+  width: .5rem;
+  border-radius: 2rem;
+  background: #5096ff;
+}
+
+body .clock .digitaldisplay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 33rem;
+  font-family: Gotham;
+}
+
+body .clock .digitaldisplay .hour {
+  position: relative;
+  left: -1rem;
+  color: #fcd912;
+}
+
+body .clock .digitaldisplay .minute {
+  position: relative;
+  left: 0rem;
+  color: #ffba25;
+}
+
+body .clock .digitaldisplay .second {
+  position: relative;
+  left: 1rem;
+  color: #ffa125;
+}
+
+body .clock .digitaldisplay span {
+  position: relative;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+body .clock .digitaldisplay .seconds {
+  left: 1rem;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    overflow: hidden;
+
+    .firstpage {
+        min-height: 100vh;
+        background: #3B0E8E;
+
+        .header{
+            display:flex;
+            padding:2em;
+            .logo{
+                position: relative;
+                left:10px;
+                .spaceship{
+                    width:60px;
+                }
+            }
+
+            .title{
+                margin-top:1em;
+                color:#fff;
+                letter-spacing: 5px;
+                font-weight: 700;
+                .space{
+                    font-size:1.5em;
+                }
+            }
+        }
+
+        .menu{
+            float:right;
+            top:-90px;
+            right:80px;
+            position:relative;
+            ul{
+                display:flex;
+                transition: all 0.5 ease-in-out;
+                list-style: none;
+                li{
+                    margin-left:100px;
+
+                    a{
+                        color:#ffff;
+                        font-size:1.5rem;
+                        font-weight: 700;
+                        text-decoration: none;
+                        transition: all 0.5s ease-in-out;
+                        
+                        &:hover{
+                            color:rgb(94, 46, 184);
+                            transition: all 0.5s ease-in-out;
+                        }
+                        .o1{
+                            font-weight: 100;
+                        }
+                    } 
+                }                
+            }
+        }
+
+        .main-head{
+            position:relative;
+            padding:2.8em;
+            font-size:2em;
+            font-weight: 700;
+            width:45rem;
+
+            .main{
+                color:#fff;
+            }
+            .sub{
+                color:#B27AFF;
+                font-size:1em;
+            }
+        }
+
+        .nothing{
+            color:#fff;
+            font-weight: 100;
+            float: right;
+            right:50px;
+            position:relative;
+            transform: rotate(20deg);
+            transition: all 0.2s ease-in-out;
+        }
+
+        .airplane{
+            position: absolute;
+            float: right;
+            right:2em;
+            top:20rem;
+            height: 23.5rem;
+            width:35rem;
+            transition: all 0.5s ease-in-out;
+
+            .plane{
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                width:35rem;
+                left: 1em;
+                z-index: 3;
+                transition: all 0.5s ease-in-out;
+            }
+
+            .hide{
+                color:#fff;
+                font-size:1.5rem;
+                position:absolute;
+                top:9em;
+                left:7em;
+                transform: rotate(24deg);
+            }
+        }
+
+        .scroll{
+            position: relative;
+            top:7rem;
+            left:40rem;
+            .down{
+                color:#fff;
+                position: relative;
+                left:-55px;
+                text-align: center;
+                width:140px;
+            }
+
+            .arrow1{
+                animation: arrows 0.5s linear infinite;
+            }
+
+            .arrow2{
+                animation: arrows1 0.5s linear infinite;
+            }
+
+            .arrow3{
+                animation: arrows2 0.5s linear infinite;
+            }
+        }
+    }
+}
+
+
+

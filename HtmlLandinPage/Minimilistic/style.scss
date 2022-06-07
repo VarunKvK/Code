@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Chivo', sans-serif;
+    overflow-x: hidden;
+    .firstpage {
+        .header {
+            display: flex;
+            justify-content: space-between;
+
+            .name {
+                position: relative;
+                padding: 2rem;
+                font-size: 1.5rem;
+            }
+
+            .line1 {
+                position: absolute;
+                margin-top: 4rem;
+                height: 2px;
+                width: 100%;
+                background-color: #000;
+            }
+
+            .menu {
+                height: 3rem;
+
+                ul {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 2rem;
+
+                    li {
+                        position: relative;
+                        margin-left: 10rem;
+                        list-style: none;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        font-size: 1rem;
+                        font-weight: 200;
+                        color: #000;
+                    }
+                }
+            }
+        }
+
+        .ice {
+            position: absolute;
+            height: 500px;
+            width: 300px;
+            margin: 2rem;
+            z-index: 3;
+        }
+
+        .line2 {
+            position: absolute;
+            margin-left: 22rem;
+            height: 80%;
+            width: 2px;
+            background-color: #000;
+        }
+
+        .fire {
+            z-index: 5;
+            position: absolute;
+            left: 80%;
+            top: 20rem;
+            height: 350px;
+            width: 250px;
+        }
+        .line3 {
+            position: absolute;
+            margin-left: 67rem;
+            height: 55%;
+            top:19rem;
+            width: 2px;
+            background-color: #000;
+        }
+        .introduce{
+            position: relative;
+            top:-1.5rem;
+            left:23rem;
+            width: 100%;
+            .quote{
+                font-size: 7rem;
+                font-weight: 400;
+
+                .sent2{
+                    position: relative;
+                    top: 8rem;
+                    left:-2rem;
+                }
+                .sent3{
+                    position: relative;
+                    top:14rem;
+                    right:58.5rem;
+                }
+            }
+            .about{
+                width: 28rem;
+                position: relative;
+                top:15rem;
+                left:.5rem;
+                font-weight: 300;
+            }
+        }
+    }
+}

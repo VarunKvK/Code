@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+</head>
+<body>
+    <h1>Search</h1>
+    <p id="search">Google is a vast place to search</p>
+    <input id="ans" type="text">
+    <button onclick="msg()">search</button>
+    <button onclick="replace()">replace</button>
+    <script type="text/javascript">
+        var m=str.replace("Google","microsoft");
+        function msg(){
+        var str="Google is a vast place to search";
+        var n=str.search(/google/i);
+        document.getElementById("ans").innerText = n;     
+        }
+        function replace(){
+            document.getElementById("search").innerHTML = m;
+        }
+    </script>
+</body>
+</html>

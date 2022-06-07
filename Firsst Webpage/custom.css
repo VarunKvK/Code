@@ -1,0 +1,118 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.img-responsive {
+    max-width: 100%;
+}
+.car1_image{
+    background:url(car1.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;    
+}
+.car_text{
+    color:black;
+    position:absolute;
+    top: 20%;
+    left:20%;
+    right:20%;
+}
+
+.car_text h1{
+    font-family: Gotham,bold;
+    color: rgb(255, 255, 255);
+    font-size: 5.4rem;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    margin-bottom: 0rem;
+
+
+}
+.car_text p{
+    font-family:Gotham;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+.car_text span{
+    font-family:Gotham;
+    color: #fff;
+    margin-left:13rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.Book_now{
+    text-align:center;
+}
+.Book_now button {
+    font-family: gotham;
+    display: block;
+    border:none;
+    border-radius: 2rem;
+    background-color:rgb(144, 62, 238);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left:auto;
+    margin-right:auto;
+    width: 20%;
+    }
+.Book_now .Adress_bar{
+    display: block;
+    width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    border:none;
+    border-radius: 3.5rem;
+    height: 20px;
+    padding: 0.5rem;
+    outline: none;
+}
+.Models_cars{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    
+}
+.Models_cars .Mercedes_cars{
+    float: left;
+    width:32%;
+    margin-left: 0rem;
+}
+.Models_cars .Porsche_cars{
+    float: left;
+    width:32%;
+    margin-left: 1rem;
+}
+
+.Models_cars .Lamborgini_cars{
+    float: left;
+    width:32%;
+    margin-left:1.5rem;
+}
+
+@media only screen and (min-width: 700px) {
+    Mercedes_cars{
+        width=100%;
+        float=none;
+    }
+    Porsche_cars{
+        width=100%;
+        float=none;
+    }
+    Lamborgini_cars{
+        width=100%;
+        float=none;
+    }
+}
+

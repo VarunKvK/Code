@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Doctype</title>
+    </head>
+    <body>
+        <h2>Calculate</h2>
+        A<input id="inpt1" type="text" placeholder="1st number" style="font-size:1rem;padding: 1rem;display:block;"><br>
+        B<input id="inpt2" type="text" placeholder="2nd number" style="font-size:1rem;padding: 1rem;display:block;">
+        <div style="margin-top:1rem;">
+            <button onclick="add()" style="display: block;padding: 1rem;width:100px;text-align: center;">ADD</button>
+            <button onclick="subtract()" style="display: block;padding: 1rem;width:100px;text-align: center;">SUBTRACT</button>
+            <button onclick="multiply()" style="display: block;padding: 1rem;width:100px;text-align: center;">MULTIPLY</button>
+            <button onclick="divide()" style="display: block;padding: 1rem;width:100px;text-align: center;">DIVIDE</button>
+        </div> 
+        <h3 id="ans">Result</h3>  
+
+        <script>
+            function add(){
+                var a=document.getElementById("inpt1").value;
+                var b=document.getElementById("inpt2").value;
+                var add=parseInt(a)+parseInt(b);
+                document.getElementById("ans").innerText =`${a} + ${b} isS ${add}.`;
+            }
+            function subtract(){
+                var a=document.getElementById("inpt1").value;
+                var b=document.getElementById("inpt2").value;
+                var subtract=parseInt(a)-parseInt(b);
+                document.getElementById("ans").innerText=`${a}-${b} is ${subtract}.`;
+            }
+            function divide(){
+                var a=document.getElementById("inpt1").value;
+                var b=document.getElementById("inpt2").value;
+                var divide=parseInt(a)/parseInt(b);
+                document.getElementById("ans").innerText=`${a}/${b} is ${divide}.`;
+            }
+            function multiply(){
+                var a=document.getElementById("inpt1").value;
+                var b=document.getElementById("inpt2").value;
+                var multiply=parseInt(a)*parseInt(b);
+                document.getElementById("ans").innerText=`${a}*${b} is ${multiply}.`;
+            }
+            
+        </script>
+    </body>
+</html>

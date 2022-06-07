@@ -1,0 +1,10 @@
+.style{
+    height: 50px;
+    width: 50px;
+    display: flex;
+}
+
+.font{
+    font-family: Gotham;
+    font-size: .5rem;
+}

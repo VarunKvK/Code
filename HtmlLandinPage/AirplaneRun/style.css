@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+body .firstpage {
+  min-height: 100vh;
+  background: #3B0E8E;
+}
+
+body .firstpage .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2em;
+}
+
+body .firstpage .header .logo {
+  position: relative;
+  left: 10px;
+}
+
+body .firstpage .header .logo .spaceship {
+  width: 60px;
+}
+
+body .firstpage .header .title {
+  margin-top: 1em;
+  color: #fff;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+
+body .firstpage .header .title .space {
+  font-size: 1.5em;
+}
+
+body .firstpage .menu {
+  float: right;
+  top: -90px;
+  right: 80px;
+  position: relative;
+}
+
+body .firstpage .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all 0.5 ease-in-out;
+  transition: all 0.5 ease-in-out;
+  list-style: none;
+}
+
+body .firstpage .menu ul li {
+  margin-left: 100px;
+}
+
+body .firstpage .menu ul li a {
+  color: #ffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .firstpage .menu ul li a:hover {
+  color: #5e2eb8;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .firstpage .menu ul li a .o1 {
+  font-weight: 100;
+}
+
+body .firstpage .main-head {
+  position: relative;
+  padding: 2.8em;
+  font-size: 2em;
+  font-weight: 700;
+  width: 45rem;
+}
+
+body .firstpage .main-head .main {
+  color: #fff;
+}
+
+body .firstpage .main-head .sub {
+  color: #B27AFF;
+  font-size: 1em;
+}
+
+body .firstpage .nothing {
+  color: #fff;
+  font-weight: 100;
+  float: right;
+  right: 50px;
+  position: relative;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+body .firstpage .airplane {
+  position: absolute;
+  float: right;
+  right: 2em;
+  top: 20rem;
+  height: 23.5rem;
+  width: 35rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .firstpage .airplane .plane {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  width: 35rem;
+  left: 1em;
+  z-index: 3;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .firstpage .airplane .hide {
+  color: #fff;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 9em;
+  left: 7em;
+  -webkit-transform: rotate(24deg);
+          transform: rotate(24deg);
+}
+
+body .firstpage .scroll {
+  position: relative;
+  top: 7rem;
+  left: 40rem;
+}
+
+body .firstpage .scroll .down {
+  color: #fff;
+  position: relative;
+  left: -55px;
+  text-align: center;
+  width: 140px;
+}
+
+body .firstpage .scroll .arrow1 {
+  -webkit-animation: arrows 0.5s linear infinite;
+          animation: arrows 0.5s linear infinite;
+}
+
+body .firstpage .scroll .arrow2 {
+  -webkit-animation: arrows1 0.5s linear infinite;
+          animation: arrows1 0.5s linear infinite;
+}
+
+body .firstpage .scroll .arrow3 {
+  -webkit-animation: arrows2 0.5s linear infinite;
+          animation: arrows2 0.5s linear infinite;
+}
+/*# sourceMappingURL=style.css.map */

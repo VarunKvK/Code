@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Chivo', sans-serif;
+    overflow-x: hidden;
+}
+
+.circle{
+    position: absolute;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 3rem;
+    border: 2px solid #000;
+}
+.firstcontainer {
+    height: 100vh;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    top: 0;
+}
+
+.name {
+    position: relative;
+    margin-left: 3rem;
+}
+
+.menu {
+    position: relative;
+    margin-right: 3rem;
+    margin-top: 1rem;
+}
+
+
+ul {
+    display: flex;
+}
+
+.l1 {
+    position: relative;
+    left: 3rem;
+    top:-.3rem;
+    height: 2rem;
+    width: .15rem;
+    background: rgba(5, 5, 5, 0.74);
+}
+
+li {
+    margin-left: 6rem;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:#000;
+    font-weight: 400;
+}
+
+.frontend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:5rem;
+    font-size: 6.5rem;
+    font-weight: 350;
+    z-index: 2;
+}
+.circlebig{
+    height: 30rem;
+    width: 30rem;
+    border-radius: 30rem;
+    display: flex;
+    position: fixed;
+    border:3px solid #FFC700;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: big s infinite linear;
+}
+
+.circlesmall{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 20rem;
+    display: flex;
+    position: fixed;
+    border:3px solid #0099CA;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: small s infinite linear;
+}
+.line1{
+    width: 75rem;
+    height: .15rem;
+    background-color: #000;
+    position: relative;
+    top:6rem;
+    left:5rem;
+}
+.subhead{
+    font-size: 1rem;
+    position: relative;
+    top:8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:23rem;
+}
+
+.scroller{
+    animation: scrolls 1s 1s infinite linear;
+}
+
+.secondpage{
+    height: 100vh;
+    width: 100%;
+    background-color: #FFD178;
+}
+
+.headergallery{
+    padding: 4rem 2rem;
+    position: relative;
+    color: white;
+    font-weight: 350;
+    letter-spacing: 1.5rem;
+    font-size: 3rem;
+}
+
+.calculator{
+    margin:6rem 2rem;
+    position: absolute;
+    color: #654300;
+    font-weight: 400;
+    font-size: 2rem; 
+    transition: all .5s ease-in-out;
+}
+.calculator:hover{
+    letter-spacing: .5rem;
+}
+
+.line2{
+    width: 40rem;
+    height: .15rem;  
+    background-color: #fff;
+    position: relative;
+    margin: 8.3rem 2rem; 
+}
+
+.thirdpage{
+    height: 100vh;
+    width: 100%;
+    background: #4B0404;
+}
+
+.contacts{
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left:-3rem;
+    top:4rem;
+    position: relative;
+    font-size: 1.5rem;
+}
+
+.links a{
+    color:#fff;
+}
+
+.email{
+    position: relative;
+    top:-5rem;
+    left:3rem;
+    transition: all .5s ease-in-out;
+}
+
+.email:hover{
+    letter-spacing: .5rem;
+}
+.linkedin{
+    position: relative;
+    transition: all .5s ease-in-out;
+    left:2rem;
+}
+
+.linkedin:hover{
+    letter-spacing: .5rem;
+}
+.instagram{
+    transition: all .5s ease-in-out;
+    position: relative;
+    top:5rem;
+    right:3rem;
+}
+.instagram:hover{
+    letter-spacing: .5rem;
+}
+
+@keyframes scrolls {
+    0%,100%{
+        position: relative;
+        top:0px;
+    }
+    50%{
+        position: relative;
+        top:10px;
+    }
+
+    80%{
+        position: relative;
+        top:-10px;
+    }
+}
+
+@keyframes big {
+    0%,100%{
+        height: 30rem;
+        width: 30rem;
+    }
+    50%{
+        height: 30.3rem;
+        width: 30.3rem;
+    }
+}
+@keyframes small {
+    0%,100%{
+        height: 20rem;
+        width: 20rem;
+    }
+    50%{
+        height: 20.3rem;
+        width: 20.3rem;
+    }
+}

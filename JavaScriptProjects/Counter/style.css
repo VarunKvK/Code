@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .counter {
+  height: 60%;
+  width: 40%;
+  -webkit-box-shadow: 0 2px 4px rgba(70, 70, 70, 0.219);
+          box-shadow: 0 2px 4px rgba(70, 70, 70, 0.219);
+}
+
+body .counter .counterheading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #6349FF;
+}
+
+body .counter .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 2rem;
+  width: 40%;
+  color: #C8C8C8;
+  font-size: 4rem;
+  position: absolute;
+}
+
+body .counter .buttons {
+  position: relative;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body .counter .button {
+  height: 35%;
+  width: 55%;
+  background-color: #FFB800;
+  font-size: 2rem;
+  text-align: center;
+  border: none;
+}
+
+body .counter #add {
+  position: relative;
+  left: -3rem;
+  color: #fff;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+}
+
+body .counter .button:nth-child(odd):hover {
+  background-color: #ce9300;
+}
+
+body .counter #dec {
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+  color: #fff;
+  position: relative;
+  left: 3rem;
+}
+
+body .counter #reset {
+  background-color: #fff;
+  border: 2px solid #FFB800;
+}
+
+body .counter #reset .iconify {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  font-size: 2rem;
+}
+
+body .counter #reset:hover .iconify {
+  -webkit-transform: rotateZ(-90deg);
+          transform: rotateZ(-90deg);
+}
+/*# sourceMappingURL=style.css.map */

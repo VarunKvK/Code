@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+body .weightconverter {
+  height: 20rem;
+  width: 25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .weightconverter .masskg {
+  height: 15rem;
+  width: 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .weightconverter .masskg input {
+  height: 8rem;
+  width: 8rem;
+  border-radius: .5rem;
+  border: none;
+  -webkit-box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.2), inset -4px 0px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.2), inset -4px 0px 10px rgba(0, 0, 0, 0.2);
+  font-size: 3rem;
+  padding-left: 1rem;
+}
+
+body .weightconverter .masskg .weightconversion {
+  position: absolute;
+  top: 25rem;
+}
+
+body .weightconverter .masskg .weightconversion #convertors {
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  -webkit-box-shadow: -4px 5px 5px rgba(0, 0, 0, 0.075);
+          box-shadow: -4px 5px 5px rgba(0, 0, 0, 0.075);
+  border-radius: 3px;
+}
+
+body .weightconverter .masskg .errormsg {
+  color: #ff4949;
+  font-size: 1rem;
+  position: absolute;
+  top: 27.5rem;
+}
+
+body .weightconverter .equal {
+  font-size: 3.5rem;
+  opacity: 0.5;
+  -webkit-box-shadow: -4px 5px 10px rgba(255, 166, 0, 0.527), inset -4px 5px 10px rgba(255, 166, 0, 0.527);
+          box-shadow: -4px 5px 10px rgba(255, 166, 0, 0.527), inset -4px 5px 10px rgba(255, 166, 0, 0.527);
+  width: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+body .weightconverter .massg {
+  height: 15rem;
+  width: 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .weightconverter .massg .inputconverted {
+  height: 8rem;
+  width: 8rem;
+  border-radius: .5rem;
+  border: none;
+  -webkit-box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.2), inset -4px 0px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.2), inset -4px 0px 10px rgba(0, 0, 0, 0.2);
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .weightconverter .massg .heightconversion {
+  position: absolute;
+  top: 23.5rem;
+}
+
+body .weightconverter .massg .heightconversion #convertors {
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  -webkit-box-shadow: -4px 5px 5px rgba(0, 0, 0, 0.075);
+          box-shadow: -4px 5px 5px rgba(0, 0, 0, 0.075);
+  border-radius: 3px;
+}
+/*# sourceMappingURL=style.css.map */

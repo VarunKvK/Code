@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background: #ffb648;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .calculator {
+  height: 25rem;
+  width: 30rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  -webkit-box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+body .calculator .data {
+  position: relative;
+  left: 2rem;
+  top: 2rem;
+}
+
+body .calculator .data span {
+  font-size: .9rem;
+}
+
+body .calculator .data .weight {
+  color: #ffb648;
+}
+
+body .calculator .data .inputw {
+  position: relative;
+  top: 1rem;
+  height: 2rem;
+  width: 20rem;
+}
+
+body .calculator .data input {
+  padding-left: 1rem;
+}
+
+body .calculator .data .height {
+  color: #ffb648;
+  position: relative;
+  top: 1.5rem;
+}
+
+body .calculator .data .heighterror {
+  color: #ffa16a;
+  position: relative;
+  top: -4.5rem;
+}
+
+body .calculator .data .weighterror {
+  color: #ffa16a;
+  position: relative;
+  top: -4.5rem;
+}
+
+body .calculator .data .inputh {
+  position: relative;
+  top: 2rem;
+  height: 2rem;
+  width: 20rem;
+}
+
+body .calculator .data .output {
+  position: relative;
+  top: 5rem;
+  color: #c57804;
+}
+
+body .calculator .data .description {
+  position: relative;
+  top: 5.5rem;
+  font-size: 1rem;
+  color: #c57804;
+}
+
+body .calculator .data .calculate {
+  background-color: #ffb648;
+  position: relative;
+  top: 4rem;
+  height: 3rem;
+  width: 10rem;
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: .2rem;
+}
+/*# sourceMappingURL=style.css.map */

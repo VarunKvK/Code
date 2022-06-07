@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(7, 7, 7);
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width:500px;
+        height:60px;
+        background: #fff;
+        border-radius: 10px;
+        ul{
+            display: flex;
+            width: 390px;
+            
+            li{
+                list-style: none;
+                position:relative;
+                width: 78px;
+                height: 60px;
+                z-index: 2;
+                a{
+                    display: flex;
+                    align-items: center;
+                    justify-content:center;
+                    flex-direction: column;
+                    width:100%;
+                    text-decoration: none;
+                    position: relative;
+
+                    .icon{
+                        position: relative;
+                        display:block;
+                        line-height:65px;
+                        font-size:1.5em;
+                        color:#000;
+                        transition: all 0.5s ease-in-out;
+                    }
+
+                    .text{
+                        position:absolute;
+                        color:#fff;
+                        border-radius: 15px;
+                        font-size:0.9em;
+                        width:75px;
+                        display:flex;
+                        justify-content:center;
+                        font-weight: 400;
+                        transform: translateY(15px);
+                        background:rgb(197, 63, 63);
+                        opacity: 0;
+                        transition: 0.5;
+                    }
+                }
+            }
+            .active a .icon{
+                transform: translateY(-32px);
+                color:rgb(253, 109, 109);
+            }
+
+            .active .text{
+                opacity: 1;
+                transform: translateY(-4px);
+            }
+
+            .indicator{
+                position: absolute;
+                width: 78px;
+                height: 70px;
+                top:-35px;
+                left:60px;
+                border-radius:50%;
+                background:rgb(255, 255, 255);
+                transition: 0.5s;
+            }
+        }
+
+        li:nth-child(1) .active ~ .indicator{
+            transform:translateX(calc(78px*0));
+        }
+        
+        li:nth-child(2) .active ~ .indicator{
+            transform:translateX(calc(78px*1));
+        }
+        
+        li:nth-child(3) .active ~ .indicator{
+            transform:translateX(calc(78px*2));
+        }
+        
+        li:nth-child(4) .active ~ .indicator{
+            transform:translateX(calc(78px*3));
+        }
+        
+        li:nth-child(5) .active ~ .indicator{
+            transform:translateX(calc(78px*4));
+        }
+        
+        .indicator::before{
+            content: '';
+            position: absolute;
+            background:transparent;
+            width:30px;
+            height:30px;
+            border-radius:50%;
+            top:5px;
+            box-shadow: 15px 18px rgb(255, 255, 255);
+            left:-28.4px;
+        }
+
+        .indicator::after{
+            content: '';
+            position: absolute;
+            background:transparent;
+            width:30px;
+            height:30px;
+            border-radius:50%;
+            top:5px;
+            box-shadow: -15px 18px rgb(255, 255, 255);
+            right:-28.4px;
+        }
+
+    }
+}
+

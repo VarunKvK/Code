@@ -1,0 +1,174 @@
+body{
+    background:#000 no-repeat;
+}
+.Map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    margin-left: 47%;
+}
+
+.navbar{
+    display:flex;
+}
+
+.home_button{
+    font-family:"Gotham";
+    font-size:4rem;
+    color: rgb(255, 208, 0);
+    text-decoration: none;
+    justify-content: center;
+}
+
+.nav_menu{
+    display: flex;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    list-style: none;
+}
+.Menu{
+    display: flex;
+    width: 100%;
+    padding: 0 3rem;
+}
+
+.menu_items{
+    top: 50%;
+    padding-left:3rem;
+}
+.menu_btn{
+    display: flex;
+    top: 50%;
+    padding:1rem;
+    font-family:"Gotham";
+    font-size:1rem;
+    color: rgb(255, 208, 0);
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.menu_btns{
+    display: flex;
+    padding: 1rem;
+    font-family:"Gotham";
+    font-size:1rem;
+    color: rgb(255, 208, 0);
+    text-decoration: none;
+    cursor: pointer;
+    background-color: blueviolet;
+    background-image:linear-gradient(to left,rgb(17, 0, 255),rgb(208, 109, 233));
+    border-radius: 30px;
+    width: 80px;
+    text-align:center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+#Location{
+    width:80rem;
+    border-radius: 30px;
+    height:.5rem;
+    border:none;
+    outline: none;
+    margin-left:40px;
+    margin-top: 20px;
+    padding: 1rem;
+}
+
+.protocols{
+    display: flex;
+    align-items: center;
+    font-family: "Gotham";
+    font-size: 20px;
+    color: #fff;
+    justify-content: center;
+    padding-top:2rem;
+}
+
+.Maps{
+    display:block;
+    width: 50%;
+    height: 50%;
+    margin-left: 20rem;
+    
+}
+
+.menu_btn:hover {
+    color:rgb(255, 255, 255);
+    transition: all 0.3s ease;
+}
+
+
+@media screen and (max-width: 768px) {
+    .Map{
+        display: flex;
+        justify-content:center;
+        height: 80px;
+        width:100%;
+        z-index: 1;
+        padding: 0;
+        margin-left: 190px;
+        max-width: 1300px;
+    }
+
+    #Location{
+        display: flex;
+        justify-content:center;
+        width:25rem;
+        z-index: 1;
+        padding-left: 2rem;
+        max-width: 1300px;
+        transition: all 0.5s ease;
+        margin-left: 1.5rem;
+    }
+
+    .protocols{
+        display: flex;
+        font-size: 15px;
+        justify-content:center;
+        text-align: center;
+        padding: 0px;
+        margin-left: 130px;
+        transition: all 0.5s ease;
+        z-index: 1;
+        width: 15rem;
+        max-width: 1300px;
+    }
+
+    .Maps{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin-left:0.7rem ; 
+        height:20rem;
+        width:30rem;
+        padding-top:-3rem;
+    }
+
+    .nav_menu{
+        display: grid;
+        background-color: #fff;
+        top:-1000px;
+        z-index: -1;
+        margin:0;
+        grid-template-columns:auto;
+        position: absolute;
+        opacity: 1;
+        width: 100%;
+        transition:all 0.5s ease;        
+    }
+
+    .nav_menu.active {
+        background-color: #fff;
+        top:100%;
+        z-index: 99;
+        height: 66vh;
+        opacity: 1;
+        transition: all 0.5s ease;
+        font-size:1.6rem;
+    }
+    
+
+}

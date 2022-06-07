@@ -1,0 +1,79 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Gotham;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    height: 50vh;
+
+    .line1 {
+        height: .2rem;
+        width: 20rem;
+        background-color: rgb(44, 44, 44);
+    }
+
+    .containerone {
+        height: 6rem;
+        width: 20rem;
+        display: flex;
+        align-items: center;
+        transition: all 5s ease-in;
+    }
+
+    .containerone:hover {
+        transition: all 5s ease-out;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .line2 {
+        height: .2rem;
+        width: 20rem;
+        background-color: rgb(44, 44, 44);
+    }
+
+    .containertwo {
+        height: 6rem;
+        width: 20rem;
+        display: flex;
+        align-items: center;
+        transition: all 5s ease-in-out;
+    }
+
+    .containertwo:hover {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .rectone {
+        position: absolute;
+        height: 8rem;
+        width: 10rem;
+        opacity: 0;
+
+        img {
+            height: 8rem;
+            width: 10rem;
+        }
+    }
+
+    .recttwo {
+        position: absolute;
+        height: 8rem;
+        width: 10rem;
+        opacity: 0;
+
+        img {
+            height: 8rem;
+            width: 10rem;
+        }
+    }
+
+    .unhide {
+        opacity: 100;
+    }
+}

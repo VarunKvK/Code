@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    .clock {
+        height: 20rem;
+        width: 20rem;
+        border-radius: 20rem;
+        background: rgb(99, 135, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 4px 0px 20px rgb(0, 39, 167),
+                inset 4px 0px 20px rgb(34, 85, 252);
+        .hourhand {
+            height: 6rem;
+            width: .3rem;
+            background: rgb(247, 174, 38);
+            position: absolute;
+            top:14.6rem;
+            transform-origin: bottom;
+            box-shadow: 2px 0px 20px rgb(247, 174, 38);
+            border-radius: 7rem;
+        }
+        .secondhand {
+            height: 8rem;
+            width: .3rem;
+            background: rgb(255, 196, 0);
+            position: absolute;
+            top:12.6rem;
+            transform-origin: bottom;
+            border-radius: 7rem;
+            box-shadow: 2px 0px 20px rgb(255, 196, 0);
+        }
+        .minutehand {
+            box-shadow: 2px 0px 20px rgb(255, 232, 128);
+            height: 7rem;
+            width: .3rem;
+            background: rgb(255, 232, 128);
+            position: absolute;
+            top:13.6rem;
+            transform-origin: bottom;
+            border-radius: 7rem;
+        }
+        .circle1{
+            z-index: 2;
+            height: .5rem;
+            width: .5rem;
+            border-radius: 2rem;
+            background: rgb(80, 150, 255);
+        }
+        .digitaldisplay{
+            display: flex;
+            position: absolute;
+            top:33rem;
+            font-family: Gotham;
+            .hour{
+                position: relative;
+                left: -1rem;
+                color: rgb(252, 217, 18);
+            }
+            .minute{
+                position: relative;
+                left: 0rem;
+                color: rgb(255, 186, 37);
+            }
+            .second{
+                position: relative;
+                left: 1rem;
+                color: rgb(255, 161, 37);
+            }
+            span{
+                position: relative;
+                font-size: 2rem;
+                color:rgba(0,0,0,0.4);
+            }
+            .seconds{
+                left:1rem;
+            }
+        }
+    }
+}

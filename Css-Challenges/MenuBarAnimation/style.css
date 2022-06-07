@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Spline Sans', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  background: white;
+}
+
+body .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 7.5rem;
+  position: absolute;
+  z-index: 4;
+  padding: 20px;
+  height: 5rem;
+  width: 20rem;
+  background: #ff8484;
+  border-radius: 20px;
+  -webkit-box-shadow: 9px 10px 20px 0px rgba(58, 58, 58, 0.582);
+          box-shadow: 9px 10px 20px 0px rgba(58, 58, 58, 0.582);
+}
+
+body .title .heading {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+body .title .menubar {
+  position: relative;
+  left: 180px;
+  height: 40px;
+  width: 40px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+body .title .menubar .l1 {
+  border-radius: 5px;
+  height: 5px;
+  width: 40px;
+  position: relative;
+  background: #fff;
+}
+
+body .title .menubar .l2 {
+  border-radius: 5px;
+  height: 5px;
+  width: 40px;
+  position: relative;
+  top: 5px;
+  background: #fff;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .title .menubar .l3 {
+  border-radius: 5px;
+  height: 5px;
+  width: 40px;
+  position: relative;
+  top: 10px;
+  background: #fff;
+}
+
+body .title .menubar:hover .l2 {
+  width: 30px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .container {
+  position: absolute;
+  height: 25rem;
+  width: 20rem;
+  background: #ff8484;
+  border-radius: 20px;
+  padding: 20px;
+  opacity: 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
+  -webkit-box-shadow: 9px 10px 20px 0px rgba(58, 58, 58, 0.582);
+          box-shadow: 9px 10px 20px 0px rgba(58, 58, 58, 0.582);
+}
+
+body .container .circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background: #fff;
+  position: relative;
+  left: 8rem;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .container .circle .close {
+  color: #ff8484;
+  font-size: 1.8rem;
+  position: relative;
+}
+
+body .container .circle:hover {
+  position: relative;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+body .container li {
+  font-size: 1.5rem;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  position: relative;
+  padding: 10px;
+}
+
+body .container li .icon {
+  position: relative;
+  font-size: 2rem;
+  top: 6px;
+}
+
+body .container li a {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .container li a:hover {
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  color: #ad3f3f;
+}
+/*# sourceMappingURL=style.css.map */

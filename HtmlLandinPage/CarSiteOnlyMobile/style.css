@@ -1,0 +1,591 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+body .firstpage {
+  min-height: 100vh;
+  position: relative;
+}
+
+body .firstpage .company {
+  position: absolute;
+  padding: 1em;
+  -webkit-animation: company 2s ease-in-out;
+          animation: company 2s ease-in-out;
+}
+
+body .firstpage .company .title {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 300;
+}
+
+body .firstpage .company .title span {
+  font-weight: 500;
+}
+
+body .firstpage .menu-icon {
+  position: absolute;
+  width: 60px;
+  margin: 15px 25rem;
+  cursor: pointer;
+  -webkit-animation: menuicon 2s ease-in-out;
+          animation: menuicon 2s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .firstpage .menu {
+  position: absolute;
+  padding-top: 1.5em;
+  background: white;
+  height: 100vh;
+  width: 15rem;
+  z-index: 5;
+  -webkit-transform: translateX(33rem);
+          transform: translateX(33rem);
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  transition: -webkit-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+  transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
+}
+
+body .firstpage .menu ul {
+  position: absolute;
+  list-style: none;
+  top: 4rem;
+}
+
+body .firstpage .menu ul li {
+  margin-left: 2em;
+}
+
+body .firstpage .menu ul li a {
+  line-height: 3rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+  padding: 0;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+body .firstpage .menu ul li a:hover {
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  color: #8d6c47;
+}
+
+body .firstpage .content {
+  position: relative;
+  top: 10rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .firstpage .content .moto {
+  font-size: 2.5rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 30px;
+  -webkit-transform: translate(5%, 0%);
+          transform: translate(5%, 0%);
+  position: absolute;
+  top: 20rem;
+  z-index: 3;
+  -webkit-animation: moto 3s ease;
+          animation: moto 3s ease;
+}
+
+body .firstpage .content .submoto {
+  font-size: 0.8rem;
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  position: absolute;
+  top: 23rem;
+  left: 150px;
+  -webkit-transform: translate(40%, 0%);
+          transform: translate(40%, 0%);
+  -webkit-animation: submoto 3s ease;
+          animation: submoto 3s ease;
+}
+
+body .firstpage .content .scrollanimate {
+  position: relative;
+  top: 24rem;
+  z-index: 4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 13em;
+}
+
+body .firstpage .content .scrollanimate .animate {
+  width: 2rem;
+  -webkit-animation: animate 1.5s ease;
+          animation: animate 1.5s ease;
+}
+
+body .firstpage .content .scrollanimate .animate .circle {
+  -webkit-animation: scroll 2s infinite;
+          animation: scroll 2s infinite;
+}
+
+body .firstpage .content .scrollanimate .scroll {
+  position: absolute;
+  top: 1.5em;
+  left: 34px;
+  -webkit-animation: scrolls 1.5s ease;
+          animation: scrolls 1.5s ease;
+}
+
+body .firstpage .content .mini {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  top: -12em;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-animation: car 3s ease;
+          animation: car 3s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+body .secondpage {
+  position: relative;
+  min-height: 270vh;
+}
+
+body .secondpage .car {
+  position: absolute;
+}
+
+body .secondpage .car .car1 {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  height: 28rem;
+  cursor: pointer;
+  -webkit-animation: car1 5s ease-in-out;
+          animation: car1 5s ease-in-out;
+}
+
+body .secondpage .car .car1 .ferraritext {
+  position: relative;
+  top: 1.5em;
+  font-size: 4rem;
+  margin-left: 3em;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .secondpage .car .car1 .ferrari {
+  z-index: 3;
+  position: relative;
+  top: -150px;
+  margin-left: 9em;
+}
+
+body .secondpage .car .car1:hover {
+  -webkit-transform: translateX(-55px);
+          transform: translateX(-55px);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .secondpage .car .car1:hover .ferraritext {
+  -webkit-transform: translateX(-30px);
+          transform: translateX(-30px);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .secondpage .car .car2 {
+  cursor: pointer;
+  height: 28rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-animation: car2 5s ease-in-out;
+          animation: car2 5s ease-in-out;
+}
+
+body .secondpage .car .car2 .masseratitext {
+  position: relative;
+  top: 0.9em;
+  font-size: 3.5rem;
+  margin-left: 3em;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .secondpage .car .car2 .masserati {
+  z-index: 3;
+  position: relative;
+  top: -150px;
+  margin-left: -10em;
+}
+
+body .secondpage .car .car2:hover {
+  -webkit-transform: translateX(55px);
+          transform: translateX(55px);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .secondpage .car .car2:hover .masseratitext {
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .secondpage .car .car3 {
+  height: 28rem;
+  cursor: pointer;
+  -webkit-animation: car3 5s ease-in-out;
+          animation: car3 5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .secondpage .car .car3 .dodgertext {
+  position: relative;
+  top: 1em;
+  font-size: 4rem;
+  margin-left: 1.2em;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .secondpage .car .car3 .dodger {
+  width: 40rem;
+  z-index: 3;
+  position: relative;
+  top: -150px;
+  margin-left: 2em;
+}
+
+body .secondpage .car .car3:hover {
+  -webkit-transform: translateX(-55px);
+          transform: translateX(-55px);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .secondpage .car .car3:hover .dodgertext {
+  -webkit-transform: translateX(-30px);
+          transform: translateX(-30px);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .secondpage .car .car4 {
+  height: 20rem;
+  cursor: pointer;
+  -webkit-animation: car4 5s ease-in-out;
+          animation: car4 5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .secondpage .car .car4 .mercedestext {
+  position: relative;
+  top: -0.2em;
+  font-size: 4rem;
+  margin-left: 1.9em;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .secondpage .car .car4 .mercedes {
+  width: 50rem;
+  z-index: 3;
+  position: relative;
+  top: -350px;
+  margin-left: -12em;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+body .secondpage .car .car4:hover {
+  -webkit-transform: translateX(55px);
+          transform: translateX(55px);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .secondpage .car .car4:hover .mercedestext {
+  -webkit-transform: translateX(30px);
+          transform: translateX(30px);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+@-webkit-keyframes scroll {
+  0%,
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+}
+
+@keyframes scroll {
+  0%,
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+}
+
+@-webkit-keyframes car {
+  40% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  100% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@keyframes car {
+  40% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  100% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@-webkit-keyframes scrolls {
+  0% {
+    -webkit-transform: translateX(50rem);
+            transform: translateX(50rem);
+  }
+  100% {
+    left: 34px;
+  }
+}
+
+@keyframes scrolls {
+  0% {
+    -webkit-transform: translateX(50rem);
+            transform: translateX(50rem);
+  }
+  100% {
+    left: 34px;
+  }
+}
+
+@-webkit-keyframes animate {
+  0% {
+    -webkit-transform: translateX(-50rem);
+            transform: translateX(-50rem);
+  }
+  100% {
+    left: 31px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    -webkit-transform: translateX(-50rem);
+            transform: translateX(-50rem);
+  }
+  100% {
+    left: 31px;
+  }
+}
+
+@-webkit-keyframes moto {
+  0% {
+    -webkit-transform: translateX(-50rem);
+            transform: translateX(-50rem);
+  }
+  100% {
+    left: 31px;
+  }
+}
+
+@keyframes moto {
+  0% {
+    -webkit-transform: translateX(-50rem);
+            transform: translateX(-50rem);
+  }
+  100% {
+    left: 31px;
+  }
+}
+
+@-webkit-keyframes submoto {
+  0% {
+    -webkit-transform: translateX(50rem);
+            transform: translateX(50rem);
+  }
+  100% {
+    left: 150px;
+  }
+}
+
+@keyframes submoto {
+  0% {
+    -webkit-transform: translateX(50rem);
+            transform: translateX(50rem);
+  }
+  100% {
+    left: 150px;
+  }
+}
+
+@-webkit-keyframes company {
+  0% {
+    -webkit-transform: translateY(-10rem);
+            transform: translateY(-10rem);
+  }
+  100% {
+    padding: 1em;
+  }
+}
+
+@keyframes company {
+  0% {
+    -webkit-transform: translateY(-10rem);
+            transform: translateY(-10rem);
+  }
+  100% {
+    padding: 1em;
+  }
+}
+
+@-webkit-keyframes menuicon {
+  0% {
+    -webkit-transform: translateY(-10rem);
+            transform: translateY(-10rem);
+  }
+  100% {
+    padding: 1em;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+@keyframes menuicon {
+  0% {
+    -webkit-transform: translateY(-10rem);
+            transform: translateY(-10rem);
+  }
+  100% {
+    padding: 1em;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+@-webkit-keyframes car1 {
+  0% {
+    -webkit-transform: translateX(50rem);
+            transform: translateX(50rem);
+  }
+  100% {
+    left: 31px;
+  }
+}
+
+@keyframes car1 {
+  0% {
+    -webkit-transform: translateX(50rem);
+            transform: translateX(50rem);
+  }
+  100% {
+    left: 31px;
+  }
+}
+
+@-webkit-keyframes car3 {
+  0% {
+    -webkit-transform: translateX(50rem);
+            transform: translateX(50rem);
+  }
+  100% {
+    left: 31px;
+  }
+}
+
+@keyframes car3 {
+  0% {
+    -webkit-transform: translateX(50rem);
+            transform: translateX(50rem);
+  }
+  100% {
+    left: 31px;
+  }
+}
+
+@-webkit-keyframes car2 {
+  0% {
+    -webkit-transform: translateX(-50rem);
+            transform: translateX(-50rem);
+  }
+  100% {
+    left: 31px;
+  }
+}
+
+@keyframes car2 {
+  0% {
+    -webkit-transform: translateX(-50rem);
+            transform: translateX(-50rem);
+  }
+  100% {
+    left: 31px;
+  }
+}
+
+@-webkit-keyframes car4 {
+  0% {
+    -webkit-transform: translateX(-50rem);
+            transform: translateX(-50rem);
+  }
+  100% {
+    left: 31px;
+  }
+}
+
+@keyframes car4 {
+  0% {
+    -webkit-transform: translateX(-50rem);
+            transform: translateX(-50rem);
+  }
+  100% {
+    left: 31px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
