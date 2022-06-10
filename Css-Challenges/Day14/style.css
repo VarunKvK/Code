@@ -98,8 +98,8 @@ body .container .flip .front .street .line1 {
   background-color: #fff;
   position: absolute;
   width: 5px;
-  -webkit-animation: line1 0.8s linear 0.3s infinite;
-          animation: line1 0.8s linear 0.3s infinite;
+  -webkit-animation: line1 0.7s linear 0.6s infinite;
+          animation: line1 0.7s linear 0.6s infinite;
 }
 
 body .container .flip .front .street .line2 {
@@ -109,8 +109,8 @@ body .container .flip .front .street .line2 {
   position: absolute;
   width: 10px;
   left: .5rem;
-  -webkit-animation: line3 0.8s linear 0.7s infinite;
-          animation: line3 0.8s linear 0.7s infinite;
+  -webkit-animation: line3 0.7s linear 1s infinite;
+          animation: line3 0.7s linear 1s infinite;
 }
 
 body .container .flip .front .street .line3 {
@@ -120,8 +120,8 @@ body .container .flip .front .street .line3 {
   position: absolute;
   width: 8px;
   left: 1rem;
-  -webkit-animation: line3 0.8s linear 0.4s infinite;
-          animation: line3 0.8s linear 0.4s infinite;
+  -webkit-animation: line3 0.7s linear 0.5s infinite;
+          animation: line3 0.7s linear 0.5s infinite;
 }
 
 body .container .flip .front .street .line4 {
@@ -131,8 +131,8 @@ body .container .flip .front .street .line4 {
   position: absolute;
   width: 20px;
   left: 2rem;
-  -webkit-animation: line4 0.8s linear 1s infinite;
-          animation: line4 0.8s linear 1s infinite;
+  -webkit-animation: line4 0.8s linear 0.1s infinite;
+          animation: line4 0.8s linear 0.1s infinite;
 }
 
 body .container .flip .front .street .line5 {
@@ -142,8 +142,8 @@ body .container .flip .front .street .line5 {
   position: absolute;
   width: 20px;
   left: 2.5rem;
-  -webkit-animation: line5 0.8s linear 0.4s infinite;
-          animation: line5 0.8s linear 0.4s infinite;
+  -webkit-animation: line5 0.8s linear 0.5s infinite;
+          animation: line5 0.8s linear 0.5s infinite;
 }
 
 body .container .flip .front .street .line7 {
@@ -153,8 +153,8 @@ body .container .flip .front .street .line7 {
   position: absolute;
   width: 5px;
   left: 3.5rem;
-  -webkit-animation: line7 0.8s linear 0.1s infinite;
-          animation: line7 0.8s linear 0.1s infinite;
+  -webkit-animation: line7 0.7s linear 0.9s infinite;
+          animation: line7 0.7s linear 0.9s infinite;
 }
 
 body .container .flip .front .street .line6 {
@@ -164,8 +164,8 @@ body .container .flip .front .street .line6 {
   position: absolute;
   width: 10px;
   left: 4.5rem;
-  -webkit-animation: line6 0.8s linear 0.7s infinite;
-          animation: line6 0.8s linear 0.7s infinite;
+  -webkit-animation: line6 0.8s linear 0.9s infinite;
+          animation: line6 0.8s linear 0.9s infinite;
 }
 
 body .container .flip .front .street .line8 {
@@ -175,8 +175,8 @@ body .container .flip .front .street .line8 {
   position: absolute;
   width: 30px;
   left: 5.5rem;
-  -webkit-animation: line8 0.8s linear 0.1s infinite;
-          animation: line8 0.8s linear 0.1s infinite;
+  -webkit-animation: line8 0.8s linear 0.2s infinite;
+          animation: line8 0.8s linear 0.2s infinite;
 }
 
 body .container .flip .front .street .line9 {
@@ -186,8 +186,8 @@ body .container .flip .front .street .line9 {
   position: absolute;
   width: 20px;
   left: 9rem;
-  -webkit-animation: line9 0.7s linear 0.5s infinite;
-          animation: line9 0.7s linear 0.5s infinite;
+  -webkit-animation: line9 0.8s linear 0.7s infinite;
+          animation: line9 0.8s linear 0.7s infinite;
 }
 
 body .container .flip .back {
@@ -223,8 +223,8 @@ body .container .flip .back .sky .line1 {
   background-color: #fff;
   position: absolute;
   width: 5px;
-  -webkit-animation: line1 0.8s linear 0.2s infinite;
-          animation: line1 0.8s linear 0.2s infinite;
+  -webkit-animation: line1 0.8s linear 0.3s infinite;
+          animation: line1 0.8s linear 0.3s infinite;
 }
 
 body .container .flip .back .sky .line2 {
@@ -235,8 +235,8 @@ body .container .flip .back .sky .line2 {
   width: 10px;
   top: 5rem;
   left: .5rem;
-  -webkit-animation: line3 0.8s linear 0.2s infinite;
-          animation: line3 0.8s linear 0.2s infinite;
+  -webkit-animation: line3 0.7s linear 0.2s infinite;
+          animation: line3 0.7s linear 0.2s infinite;
 }
 
 body .container .flip .back .sky .line3 {
@@ -247,8 +247,8 @@ body .container .flip .back .sky .line3 {
   position: absolute;
   width: 8px;
   left: 1rem;
-  -webkit-animation: line3 0.7s linear 0.7s infinite;
-          animation: line3 0.7s linear 0.7s infinite;
+  -webkit-animation: line3 0.8s linear 1s infinite;
+          animation: line3 0.8s linear 1s infinite;
 }
 
 body .container .flip .back .sky .line4 {
@@ -258,8 +258,8 @@ body .container .flip .back .sky .line4 {
   position: absolute;
   width: 20px;
   left: 2rem;
-  -webkit-animation: line4 0.7s linear 0.6s infinite;
-          animation: line4 0.7s linear 0.6s infinite;
+  -webkit-animation: line4 0.7s linear 0.5s infinite;
+          animation: line4 0.7s linear 0.5s infinite;
 }
 
 body .container .flip .back .sky .line5 {
@@ -270,8 +270,8 @@ body .container .flip .back .sky .line5 {
   width: 20px;
   top: 10rem;
   left: 2.5rem;
-  -webkit-animation: line5 0.7s linear 0.6s infinite;
-          animation: line5 0.7s linear 0.6s infinite;
+  -webkit-animation: line5 0.7s linear 1s infinite;
+          animation: line5 0.7s linear 1s infinite;
 }
 
 body .container .flip .back .sky .line7 {
@@ -282,8 +282,8 @@ body .container .flip .back .sky .line7 {
   width: 5px;
   left: 3.5rem;
   top: 8rem;
-  -webkit-animation: line7 0.7s linear 0.5s infinite;
-          animation: line7 0.7s linear 0.5s infinite;
+  -webkit-animation: line7 0.7s linear 0.1s infinite;
+          animation: line7 0.7s linear 0.1s infinite;
 }
 
 body .container .flip .back .sky .line6 {
@@ -294,8 +294,8 @@ body .container .flip .back .sky .line6 {
   width: 10px;
   top: 4rem;
   left: 4.5rem;
-  -webkit-animation: line6 0.7s linear 0.2s infinite;
-          animation: line6 0.7s linear 0.2s infinite;
+  -webkit-animation: line6 0.8s linear 0.1s infinite;
+          animation: line6 0.8s linear 0.1s infinite;
 }
 
 body .container .flip .back .sky .line8 {
@@ -306,8 +306,8 @@ body .container .flip .back .sky .line8 {
   width: 30px;
   left: 5.5rem;
   top: 5rem;
-  -webkit-animation: line8 0.8s linear 0.7s infinite;
-          animation: line8 0.8s linear 0.7s infinite;
+  -webkit-animation: line8 0.7s linear 0.8s infinite;
+          animation: line8 0.7s linear 0.8s infinite;
 }
 
 body .container .flip .back .sky .line9 {
@@ -318,8 +318,8 @@ body .container .flip .back .sky .line9 {
   width: 20px;
   left: 9rem;
   top: 10rem;
-  -webkit-animation: line9 0.8s linear 0.2s infinite;
-          animation: line9 0.8s linear 0.2s infinite;
+  -webkit-animation: line9 0.7s linear 0.3s infinite;
+          animation: line9 0.7s linear 0.3s infinite;
 }
 
 @-webkit-keyframes line1 {

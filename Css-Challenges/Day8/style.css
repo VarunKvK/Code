@@ -124,8 +124,8 @@
   height: 8px;
   width: 8px;
   left: 3px;
-  -webkit-animation: drop 0.9s linear 0.4s infinite;
-          animation: drop 0.9s linear 0.4s infinite;
+  -webkit-animation: drop 0.9s linear 0.96s infinite;
+          animation: drop 0.9s linear 0.96s infinite;
   background: #6ea9f5;
   bottom: -17.4rem;
   position: absolute;
